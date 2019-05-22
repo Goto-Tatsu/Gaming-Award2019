@@ -3856,7 +3856,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3430
+  m_Name: pb_Mesh-3388
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -7567,7 +7567,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3434
+  m_Name: pb_Mesh-3392
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -11145,7 +11145,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3428
+  m_Name: pb_Mesh-3386
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -15369,7 +15369,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3466
+  m_Name: pb_Mesh-3424
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -16975,7 +16975,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3432
+  m_Name: pb_Mesh-3390
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -18849,6 +18849,11 @@ PrefabInstance:
       propertyPath: SoundManeger
       value: 
       objectReference: {fileID: 1073999993}
+    - target: {fileID: 1717403409348272232, guid: 41cd814aa9c9ee844ba2f120130ee540,
+        type: 3}
+      propertyPath: Button_RStick
+      value: XBOX Start
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41cd814aa9c9ee844ba2f120130ee540, type: 3}
 --- !u!43 &1358777023
@@ -25872,7 +25877,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3276
+  m_Name: pb_Mesh-3220
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
