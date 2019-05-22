@@ -18852,7 +18852,22 @@ PrefabInstance:
     - target: {fileID: 1717403409348272232, guid: 41cd814aa9c9ee844ba2f120130ee540,
         type: 3}
       propertyPath: Button_RStick
-      value: XBOX Start
+      value: XBOX Rstick
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717403409348272232, guid: 41cd814aa9c9ee844ba2f120130ee540,
+        type: 3}
+      propertyPath: jump_power
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717403409348272232, guid: 41cd814aa9c9ee844ba2f120130ee540,
+        type: 3}
+      propertyPath: execute_wall
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717403409348272232, guid: 41cd814aa9c9ee844ba2f120130ee540,
+        type: 3}
+      propertyPath: Distance_division
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41cd814aa9c9ee844ba2f120130ee540, type: 3}
