@@ -23,5 +23,5 @@ public class Audio : MonoBehaviour
 
         audioSource.PlayOneShot(audioClip[index]);
     }
-    
+
 }

@@ -84,6 +84,7 @@
     <Compile Include="Assets\pon\GOTOLABO\Third.cs" />
     <Compile Include="Assets\pon\PlayerMoveController.cs" />
     <Compile Include="Assets\pon\Restart.cs" />
+    <Compile Include="Assets\SAColliderBuilder\fishcontroll.cs" />
     <Compile Include="Assets\SAColliderBuilder\Scripts\Internal\SABoneColliderCommon.cs" />
     <Compile Include="Assets\SAColliderBuilder\Scripts\Internal\SAColliderBuilderCommon.cs" />
     <Compile Include="Assets\SAColliderBuilder\Scripts\Internal\SAMeshColliderCommon.cs" />
@@ -98,6 +99,10 @@
     <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+    <Compile Include="Assets\script\course_select\walkman.cs" />
+    <Compile Include="Assets\script\course_select\walkman_rotation.cs" />
+    <Compile Include="Assets\script\game\monkeyControll.cs" />
+    <Compile Include="Assets\script\player.cs" />
     <Compile Include="Assets\Scripts\Data\Data_StageFirst.cs" />
     <Compile Include="Assets\Scripts\Data\LoadScene.cs" />
     <Compile Include="Assets\Scripts\End\SceneChangeEnd.cs" />
@@ -149,6 +154,7 @@
     <Compile Include="Assets\Scripts\Pause.cs" />
     <Compile Include="Assets\Scripts\Pause_Back.cs" />
     <Compile Include="Assets\Scripts\title\SceneChange.cs" />
+    <Compile Include="Assets\testcontroll.cs" />
     <None Include="Assets\SAColliderBuilder\Readme_en.txt" />
     <None Include="Assets\Materials\Shaders\TextureShader.shader" />
     <None Include="Assets\Materials\Shaders\NewSurfaceShader.shader" />
