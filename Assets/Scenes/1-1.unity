@@ -939,13 +939,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
-    triangle: 0
-    triangleVertex: {x: 0.0015, y: 1.6246474e-10, z: 0.002196968}
+    subMeshCount: 0
+    subMesh: -1
+    triangle: -1
+    triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 2
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -953,9 +953,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -988,7 +988,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: Prim.00000000
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -996,9 +996,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -2189,13 +2189,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
-    triangle: 0
-    triangleVertex: {x: -0.001, y: 0, z: -0.071}
+    subMeshCount: 0
+    subMesh: -1
+    triangle: -1
+    triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 2
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -2203,9 +2203,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -2238,7 +2238,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: Prim.00000000
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -2246,9 +2246,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -2484,13 +2484,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
+    subMeshCount: 0
+    subMesh: -1
     triangle: -1
     triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 1
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -2498,9 +2498,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -2533,7 +2533,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: aiStandardSurface4
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -2541,9 +2541,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -3245,13 +3245,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
-    triangle: 0
-    triangleVertex: {x: 0.0015, y: 0, z: 3.504824e-11}
+    subMeshCount: 0
+    subMesh: -1
+    triangle: -1
+    triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 2
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -3259,9 +3259,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -3294,7 +3294,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: Prim.00000000
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -3302,9 +3302,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -3856,11 +3856,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_Name: pb_Mesh-3396
-=======
-  m_Name: pb_Mesh-3388
->>>>>>> work
+  m_Name: pb_Mesh-7498
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -5755,13 +5751,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
-    triangle: 0
-    triangleVertex: {x: 0.001000001, y: 0.0050000004, z: -0.112}
+    subMeshCount: 0
+    subMesh: -1
+    triangle: -1
+    triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 2
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -5769,9 +5765,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -5804,7 +5800,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: Prim.00000000
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -5812,9 +5808,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -7571,11 +7567,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_Name: pb_Mesh-3400
-=======
-  m_Name: pb_Mesh-3392
->>>>>>> work
+  m_Name: pb_Mesh-7502
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -7780,13 +7772,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
+    subMeshCount: 0
+    subMesh: -1
     triangle: -1
     triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 1
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -7794,9 +7786,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -7829,7 +7821,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: aiStandardSurface4
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -7837,9 +7829,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -8512,13 +8504,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
+    subMeshCount: 0
+    subMesh: -1
     triangle: -1
     triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 1
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -8526,9 +8518,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -8561,7 +8553,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: aiStandardSurface4
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -8569,9 +8561,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -8605,7 +8597,7 @@ MonoBehaviour:
       viewAdvanced: 0
     modifyNameEnabled: 1
   modified: 0
-  modifiedChildren: 1
+  modifiedChildren: 0
 --- !u!1001 &593904385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10467,13 +10459,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
+    subMeshCount: 0
+    subMesh: -1
     triangle: -1
     triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 1
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -10481,9 +10473,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -10516,7 +10508,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: aiStandardSurface3
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -10524,9 +10516,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -11047,13 +11039,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
+    subMeshCount: 0
+    subMesh: -1
     triangle: -1
     triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 1
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -11061,9 +11053,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -11096,7 +11088,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: aiStandardSurface4
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -11104,9 +11096,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -11153,11 +11145,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_Name: pb_Mesh-3394
-=======
-  m_Name: pb_Mesh-3386
->>>>>>> work
+  m_Name: pb_Mesh-7496
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -11670,13 +11658,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
+    subMeshCount: 0
+    subMesh: -1
     triangle: -1
     triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 1
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -11684,9 +11672,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -11719,7 +11707,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: aiStandardSurface3
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -11727,9 +11715,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -12166,13 +12154,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
-    triangle: 0
-    triangleVertex: {x: 0.0015, y: 0, z: -7.634984e-10}
+    subMeshCount: 0
+    subMesh: -1
+    triangle: -1
+    triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 2
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -12180,9 +12168,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -12215,7 +12203,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: Prim.00000000
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -12223,9 +12211,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -12603,13 +12591,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
+    subMeshCount: 0
+    subMesh: -1
     triangle: -1
     triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 1
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -12617,9 +12605,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -12652,7 +12640,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: aiStandardSurface4
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -12660,9 +12648,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -12742,13 +12730,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
+    subMeshCount: 0
+    subMesh: -1
     triangle: -1
     triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 1
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -12756,9 +12744,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -12791,7 +12779,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: aiStandardSurface4
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -12799,9 +12787,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -12860,7 +12848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8226697992106840ba8ade6c7d3b81e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Big_coin: {fileID: 1975684653}
+  Big_coin: {fileID: 0}
 --- !u!4 &937833995 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3758157415957613517, guid: bf9d6d7f53d9104439f1de516abf01b5,
@@ -12994,13 +12982,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
-    triangle: 0
-    triangleVertex: {x: -0.001, y: 0, z: -0.055000003}
+    subMeshCount: 0
+    subMesh: -1
+    triangle: -1
+    triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 2
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -13008,9 +12996,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -13043,7 +13031,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: Prim.00000000
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -13051,9 +13039,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -13409,13 +13397,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
-    triangle: 0
-    triangleVertex: {x: 0.001000001, y: 0.012, z: -0.061000004}
+    subMeshCount: 0
+    subMesh: -1
+    triangle: -1
+    triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 2
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -13423,9 +13411,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -13458,7 +13446,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: Prim.00000000
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -13466,9 +13454,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -15381,11 +15369,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_Name: pb_Mesh-3432
-=======
-  m_Name: pb_Mesh-3424
->>>>>>> work
+  m_Name: pb_Mesh-7534
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -16178,13 +16162,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
-    triangle: 0
-    triangleVertex: {x: 0.001000001, y: -0.002, z: -0.027}
+    subMeshCount: 0
+    subMesh: -1
+    triangle: -1
+    triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 2
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -16192,9 +16176,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -16227,7 +16211,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: Prim.00000000
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -16235,9 +16219,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -16501,13 +16485,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
+    subMeshCount: 0
+    subMesh: -1
     triangle: -1
     triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 1
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -16515,9 +16499,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -16550,7 +16534,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: aiStandardSurface3
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -16558,9 +16542,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -16985,15 +16969,13 @@ MonoBehaviour:
     modifyNameEnabled: 1
   modified: 0
   modifiedChildren: 0
-<<<<<<< HEAD
-=======
 --- !u!43 &1280734650
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3390
+  m_Name: pb_Mesh-7500
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -17147,7 +17129,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
->>>>>>> work
 --- !u!1 &1283311505
 GameObject:
   m_ObjectHideFlags: 0
@@ -18838,12 +18819,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 2132639801}
+      objectReference: {fileID: 1280734650}
     - target: {fileID: 4226202435602300503, guid: 41cd814aa9c9ee844ba2f120130ee540,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 2132639801}
+      objectReference: {fileID: 1280734650}
     - target: {fileID: 4226202435703933970, guid: 41cd814aa9c9ee844ba2f120130ee540,
         type: 3}
       propertyPath: m_Mesh
@@ -18878,8 +18859,6 @@ PrefabInstance:
       propertyPath: jump_power
       value: 250
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-=======
     - target: {fileID: 1717403409348272232, guid: 41cd814aa9c9ee844ba2f120130ee540,
         type: 3}
       propertyPath: execute_wall
@@ -18890,7 +18869,11 @@ PrefabInstance:
       propertyPath: Distance_division
       value: 2
       objectReference: {fileID: 0}
->>>>>>> work
+    - target: {fileID: 1717403409348272232, guid: 41cd814aa9c9ee844ba2f120130ee540,
+        type: 3}
+      propertyPath: FrameSpeed
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41cd814aa9c9ee844ba2f120130ee540, type: 3}
 --- !u!43 &1358777023
@@ -19129,13 +19112,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
-    triangle: 0
-    triangleVertex: {x: 0.001, y: 0.003, z: 0.006}
+    subMeshCount: 0
+    subMesh: -1
+    triangle: -1
+    triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 2
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -19143,9 +19126,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -19178,7 +19161,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: Prim.00000000
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -19186,9 +19169,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -19221,7 +19204,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  modified: 1
+  modified: 0
   modifiedChildren: 0
 --- !u!1 &1366870926
 GameObject:
@@ -19595,13 +19578,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
-    triangle: 0
-    triangleVertex: {x: 0.0015, y: 0, z: 3.504824e-11}
+    subMeshCount: 0
+    subMesh: -1
+    triangle: -1
+    triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 2
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -19609,9 +19592,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -19644,7 +19627,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: Prim.00000000
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -19652,9 +19635,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -19922,13 +19905,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
-    triangle: 0
-    triangleVertex: {x: 0.0015, y: 0, z: 3.504824e-11}
+    subMeshCount: 0
+    subMesh: -1
+    triangle: -1
+    triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 2
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -19936,9 +19919,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -19971,7 +19954,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: Prim.00000000
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -19979,9 +19962,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -20314,13 +20297,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
+    subMeshCount: 0
+    subMesh: -1
     triangle: -1
     triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 1
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -20328,9 +20311,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -20363,7 +20346,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: aiStandardSurface4
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -20371,9 +20354,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -21951,13 +21934,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
-    triangle: 0
-    triangleVertex: {x: 0.0015, y: 0, z: 3.504824e-11}
+    subMeshCount: 0
+    subMesh: -1
+    triangle: -1
+    triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 2
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -21965,9 +21948,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -22000,7 +21983,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: Prim.00000000
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -22008,9 +21991,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -22171,13 +22154,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
+    subMeshCount: 0
+    subMesh: -1
     triangle: -1
     triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 1
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -22185,9 +22168,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -22220,7 +22203,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: aiStandardSurface3
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -22228,9 +22211,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -22501,13 +22484,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
-    triangle: 0
-    triangleVertex: {x: -0.0031759003, y: -0.004514224, z: 0.010035181}
+    subMeshCount: 0
+    subMesh: -1
+    triangle: -1
+    triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 2
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -22515,9 +22498,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -22550,7 +22533,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: Prim.00000000
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -22558,9 +22541,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -23170,7 +23153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfdd7ab4010d68f45927eb7226c12365, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Big_coin: {fileID: 1183346740}
+  Big_coin: {fileID: 0}
 --- !u!1001 &1600165442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25438,13 +25421,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
+    subMeshCount: 0
+    subMesh: -1
     triangle: -1
     triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 1
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -25452,9 +25435,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -25487,7 +25470,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: aiStandardSurface4
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -25495,9 +25478,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -25914,11 +25897,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_Name: pb_Mesh-3228
-=======
-  m_Name: pb_Mesh-3220
->>>>>>> work
+  m_Name: pb_Mesh-7330
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -27387,13 +27366,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
+    subMeshCount: 0
+    subMesh: -1
     triangle: -1
     triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 1
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -27401,9 +27380,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -27436,7 +27415,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: aiStandardSurface3
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -27444,9 +27423,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -28445,18 +28424,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf9d6d7f53d9104439f1de516abf01b5, type: 3}
---- !u!114 &1975684653 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2320977263000263594, guid: c60ba209bed52b647870e69a523dae5d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1094266324}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d3e799da9fbb4f409266a73f283d466, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1991481858 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3758157415957613517, guid: bf9d6d7f53d9104439f1de516abf01b5,
@@ -29638,13 +29605,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
+    subMeshCount: 0
+    subMesh: -1
     triangle: -1
     triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 1
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -29652,9 +29619,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -29687,7 +29654,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: aiStandardSurface4
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -29695,9 +29662,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -29929,13 +29896,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splitMesh:
-    subMeshCount: 1
-    subMesh: 0
+    subMeshCount: 0
+    subMesh: -1
     triangle: -1
     triangleVertex: {x: 0, y: 0, z: 0}
     polygonTriangles: 
     polygonVertices: []
-  splitMode: 1
+  splitMode: 0
   meshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -29943,9 +29910,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -29978,7 +29945,7 @@ MonoBehaviour:
       isCreate: 1
       viewAdvanced: 0
     modifyNameEnabled: 1
-  defaultName: aiStandardSurface3
+  defaultName: 
   defaultMeshColliderProperty:
     splitProperty:
       splitMaterialEnabled: 1
@@ -29986,9 +29953,9 @@ MonoBehaviour:
       splitPolygonNormalEnabled: 0
       splitPolygonNormalAngle: 45
     reducerProperty:
-      shapeType: 1
+      shapeType: 2
       fitType: 0
-      meshType: 2
+      meshType: 3
       maxTriangles: 255
       sliceMode: 0
       scale: {x: 1, y: 1, z: 1}
@@ -30201,163 +30168,3 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1504467403}
   m_PrefabAsset: {fileID: 0}
---- !u!43 &2132639801
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3398
-  serializedVersion: 9
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 192
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 129
-    localAABB:
-      m_Center: {x: -0.5, y: 1, z: 0}
-      m_Extent: {x: 0.5, y: 1, z: 0.5}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 0000010002000300040005000600070008000400090005000a000b000c0009000d0005000e000f0010000d00110005001200130014001100150005001600170018001500190005001a001b001c0019001d0005001e001f0020001d00210005002200230024002100250005002600270028002500290005002a002b002c0029002d0005002e002f0030002d00310005003200330034003100350005003600370038003500390005003a003b003c0039003d0005003e003f0040003d00410005004200430044004100450005004600470048004500490005004a004b004c0049004d0005004e004f0050004d00510005005200530054005100550005005600570058005500590005005a005b005c0059005d0005005e005f0060005d00610005006200630064006100650005006600670068006500690005006a006b006c0069006d0005006e006f0070006d00710005007200730074007100750005007600770078007500790005007a007b007c0079007d0005007e007f0080007d0003000500
-  m_VertexData:
-    serializedVersion: 2
-    m_VertexCount: 129
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 40
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 6192
-    _typelessdata: 000000bf0000004000000000fe3a773ffe3a773e07cdc23d4bbdc8bd000000006dc47e3f000080bf4abd483defe6034040681dbc00000000c2c5c73dfe3a773ffe3a773e07cdc23d4bbdc8bd000000006dc47e3f000080bf36bdc83df8ad382f000000000000000000000000fe3a773ffe3a773e07cdc23d4bbdc8bd000000006dc47e3f000080bf000000000000000000000000000000000000000000000000000080bf00000000000080bf0000000000000000000080bf000000000000000040681dbc00000000c2c5c73d00000000000080bf00000000000080bf0000000000000000000080bf40681d3cc2c5c73d000000bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000003f00000000000000bf0000004000000000c2ba6d3ffe3a773e9a3a903e32a094befe3af7b10cfa743f000080bf30a0143e4b9b034010e51bbd0000000016ef433ec2ba6d3ffe3a773e9a3a903e32a094befe3af7b10cfa743f000080bf7fcf463e634897bb40681dbc00000000c2c5c73dc2ba6d3ffe3a773e9a3a903e32a094befe3af7b10cfa743f000080bfc8e1c43d614897bb10e51bbd0000000016ef433e00000000000080bf00000000000080bf0000000000000000000080bf10e51b3d16ef433e000000bf0000004000000000c1175b3fff3a773e0e37ea3eeb5af1beff3af7b199c5613f000080bfe95a713eeb0603403c93acbd00000000da398e3ec1175b3fff3a773e0e37ea3eeb5af1beff3af7b199c5613f000080bf1cc5913e700460bc10e51bbd0000000016ef433ec1175b3fff3a773e0e37ea3eeb5af1beff3af7b199c5613f000080bf9e2b3f3e700460bc3c93acbd00000000da398e3e00000000000080bf00000000000080bf0000000000000000000080bf3c93ac3dda398e3e000000bf00000040000000005309403ffe3a773ea9991d3f9a6722bf0000000003e4453f000080bf9a67a23e822f02401af615be00000000f304b53e5309403ffe3a773ea9991d3f9a6722bf0000000003e4453f000080bf407fbb3e86b6dbbc3c93acbd00000000da398e3e5309403ffe3a773ea9991d3f9a6722bf0000000003e4453f000080bff34f893e86b6dbbc1af615be00000000f304b53e00000000000080bf00000000000080bf0000000000000000000080bf1af6153ef304b53e000000bf0000004000000000a9991d3ffe3a773e5309403f03e445bf000000009a67223f000080bf03e4c53e591d01404c8c63be0000000031dbd43ea9991d3ffe3a773e5309403f03e445bf000000009a67223f000080bfaafbde3eb16532bd1af615be00000000f304b53ea9991d3ffe3a773e5309403f03e445bf000000009a67223f000080bf5dccac3eb16532bd4c8c63be0000000031dbd43e00000000000080bf00000000000080bf0000000000000000000080bf4c8c633e31dbd43e000000bf00000040000000000a37ea3efe3a773ec2175b3f9ac561bf00000000e65af13e000080bf99c5e13eeeb5ff3f76089ebe000000005e83ec3e0a37ea3efe3a773ec2175b3f9ac561bf00000000e65af13e000080bf3dddfa3e117f81bd4c8c63be0000000031dbd43e0a37ea3efe3a773ec2175b3f9ac561bf00000000e65af13e000080bfefadc83e117f81bd76089ebe000000005e83ec3e00000000000080bf00000000000080bf0000000000000000000080bf76089e3e5e83ec3e000000bf00000040000000009e3a903efe3a773ec2ba6d3f08fa74bfffe31eb647a0943e000080bf0afaf43e82e9fc3f8f0ecebe00000000be14fb3e9e3a903efe3a773ec2ba6d3f08fa74bfffe31eb647a0943e000080bfd908073fcf45aebd76089ebe000000005e83ec3e9e3a903efe3a773ec2ba6d3f08fa74bfffe31eb647a0943e000080bf66e2db3ed045aebd8f0ecebe00000000be14fb3e00000000000080bf00000000000080bf0000000000000000000080bf8f0ece3ebe14fb3e000000bf000000400000000006cdc23dff3a773eff3a773f6dc47ebfff3af73049bdc83d000080bf6dc4fe3ef5f0f93f000000bf000000000000003f06cdc23dff3a773eff3a773f6dc47ebfff3af73049bdc83d000080bf0bee0b3f9fceddbd8f0ecebe00000000be14fb3e06cdc23dff3a773eff3a773f6dc47ebfff3af73049bdc83d000080bfc8ace53e9fceddbd000000bf000000000000003f00000000000080bf00000000000080bf0000000000000000000080bf0000003f0000003f000000bf000000400000000009cdc2bdfe3a773efe3a773f6dc47ebffe3af7b04dbdc8bd000080bf6dc4fe3e81e9f63fb8f818bf00000000be14fb3e09cdc2bdfe3a773efe3a773f6dc47ebffe3af7b04dbdc8bd000080bf08ee0b3fec2207be000000bf000000000000003f09cdc2bdfe3a773efe3a773f6dc47ebffe3af7b04dbdc8bd000080bfc3ace53eec2207beb8f818bf00000000be14fb3e00000000000080bf00000000000080bf0000000000000000000080bfb8f8183fbe14fb3e000000bf0000004000000000923a90befe3a773ec3ba6d3f0cfa74bf0000000028a094be000080bf0bfaf43ef5f0f33fc5fb30bf000000005f83ec3e923a90befe3a773ec3ba6d3f0cfa74bf0000000028a094be000080bfdb08073f4ee71ebeb8f818bf00000000be14fb3e923a90befe3a773ec3ba6d3f0cfa74bf0000000028a094be000080bf69e2db3e4ee71ebec5fb30bf000000005f83ec3e00000000000080bf00000000000080bf0000000000000000000080bfc5fb303f5f83ec3e000000bf00000040000000001337eabeff3a773ec0175b3f97c561bf023bf7b1ee5af1be000080bf97c5e13e8824f13fec1c47bf0000000032dbd43e1337eabeff3a773ec0175b3f97c561bf023bf7b1ee5af1be000080bf3addfa3eb44a35bec5fb30bf000000005f83ec3e1337eabeff3a773ec0175b3f97c561bf023bf7b1ee5af1be000080bfedadc83eb44a35beec1c47bf0000000032dbd43e00000000000080bf00000000000080bf0000000000000000000080bfec1c473f32dbd43e000000bf0000004000000000a5991dbfff3a773e5709403f07e445bfff3af731966722bf000080bf07e4c53ec59fee3f7a825abf00000000f304b53ea5991dbfff3a773e5709403f07e445bfff3af731966722bf000080bfb3fbde3ecc7049beec1c47bf0000000032dbd43ea5991dbfff3a773e5709403f07e445bfff3af731966722bf000080bf63ccac3ecc7049be7a825abf00000000f304b53e00000000000080bf00000000000080bf0000000000000000000080bf7a825a3ff304b53e000000bf0000004000000000550940bfff3a773ea7991d3f976722bfff3af73105e445bf000080bf9767a23e727bec3f996d6abf00000000d9398e3e550940bfff3a773ea7991d3f976722bfff3af73105e445bf000080bf3d7fbb3e6c935abe7a825abf00000000f304b53e550940bfff3a773ea7991d3f976722bfff3af73105e445bf000080bfef4f893e6c935abe996d6abf00000000d9398e3e00000000000080bf00000000000080bf0000000000000000000080bf996d6a3fd9398e3e000000bf0000004000000000c1175bbfff3a773e0c37ea3ee75af1be0000000098c561bf000080bfe75a713ea0ccea3faf4176bf0000000017ef433ec1175bbfff3a773e0c37ea3ee75af1be0000000098c561bf000080bf18c5913ef40968be996d6abf00000000d9398e3ec1175bbfff3a773e0c37ea3ee75af1be0000000098c561bf000080bf992b3f3ef40968beaf4176bf0000000017ef433e00000000000080bf00000000000080bf0000000000000000000080bfaf41763f17ef433e000000bf0000004000000000c0ba6dbf003b773eaa3a903e41a094be0000000009fa74bf000080bf41a0143ee0a3e93f608a7dbf00000000c1c5c73dc0ba6dbf003b773eaa3a903e41a094be0000000009fa74bf000080bfa0cf463ef74f71beaf4176bf0000000017ef433ec0ba6dbf003b773eaa3a903e41a094be0000000009fa74bf000080bf04e2c43df74f71be608a7dbf00000000c1c5c73d00000000000080bf00000000000080bf0000000000000000000080bf608a7d3fc1c5c73d000000bf0000004000000000003b77bf003b773eb4ccc23df4bcc8bd000000006ec47ebf000080bff4bc483d970ce93f000080bf000000002ebd3bb3003b77bf003b773eb4ccc23df4bcc8bd000000006ec47ebf000080bffabcc83d3d0a76be608a7dbf00000000c1c5c73d003b77bf003b773eb4ccc23df4bcc8bd000000006ec47ebf000080bfb3ec00b53d0a76be000080bf000000002ebd3bb300000000000080bf00000000000080bf0000000000000000000080bf0000803f2ebd3bb3000000bf0000004000000000ff3a77bfff3a773ec3ccc2bd05bdc83d000000006fc47ebf000080bf04bd48bd970ce93f608a7dbf00000000bdc5c7bdff3a77bfff3a773ec3ccc2bd05bdc83d000000006fc47ebf000080bf706baf343c0a76be000080bf000000002ebd3bb3ff3a77bfff3a773ec3ccc2bd05bdc83d000000006fc47ebf000080bffebcc8bd3c0a76be608a7dbf00000000bdc5c7bd00000000000080bf00000000000080bf0000000000000000000080bf608a7d3fbdc5c7bd000000bf0000004000000000c0ba6dbf003b773eaa3a90be41a0943e0000000009fa74bf000080bf41a014bee0a3e93faf4176bf0000000015ef43bec0ba6dbf003b773eaa3a90be41a0943e0000000009fa74bf000080bf08e2c4bdf74f71be608a7dbf00000000bdc5c7bdc0ba6dbf003b773eaa3a90be41a0943e0000000009fa74bf000080bfa2cf46bef74f71beaf4176bf0000000015ef43be00000000000080bf00000000000080bf0000000000000000000080bfaf41763f15ef43be000000bf0000004000000000c0175bbfff3a773e0f37eabeec5af13eff3af7b198c561bf000080bfea5a71bea0ccea3f986d6abf00000000db398ebec0175bbfff3a773e0f37eabeec5af13eff3af7b198c561bf000080bf9a2b3fbef30968beaf4176bf0000000015ef43bec0175bbfff3a773e0f37eabeec5af13eff3af7b198c561bf000080bf1cc591bef30968be986d6abf00000000db398ebe00000000000080bf00000000000080bf0000000000000000000080bf986d6a3fdb398ebe000000bf0000004000000000540940bfff3a773ea9991dbf9a67223fff3a77b203e445bf000080bf9967a2be717bec3f7a825abf00000000f204b5be540940bfff3a773ea9991dbf9a67223fff3a77b203e445bf000080bff44f89be6a935abe986d6abf00000000db398ebe540940bfff3a773ea9991dbf9a67223fff3a77b203e445bf000080bf3e7fbbbe6a935abe7a825abf00000000f204b5be00000000000080bf00000000000080bf0000000000000000000080bf7a825a3ff204b5be000000bf0000004000000000a9991dbfff3a773e540940bf04e4453f00000000996722bf000080bf03e4c5bec59fee3fee1c47bf000000002fdbd4bea9991dbfff3a773e540940bf04e4453f00000000996722bf000080bf5fccacbece7049be7a825abf00000000f204b5bea9991dbfff3a773e540940bf04e4453f00000000996722bf000080bfabfbdebece7049beee1c47bf000000002fdbd4be00000000000080bf00000000000080bf0000000000000000000080bfee1c473f2fdbd4be000000bf00000040000000001937eabeff3a773ebe175bbf95c5613f00000000f55af1be000080bf95c5e1be8824f13fc6fb30bf000000005e83ecbe1937eabeff3a773ebe175bbf95c5613f00000000f55af1be000080bfeaadc8beb54a35beee1c47bf000000002fdbd4be1937eabeff3a773ebe175bbf95c5613f00000000f55af1be000080bf39ddfabeb54a35bec6fb30bf000000005e83ecbe00000000000080bf00000000000080bf0000000000000000000080bfc6fb303f5e83ecbe000000bf00000040000000009b3a90befe3a773ec2ba6dbf0bfa743f0000000032a094be000080bf0afaf4bef4f0f33fb9f818bf00000000be14fbbe9b3a90befe3a773ec2ba6dbf0bfa743f0000000032a094be000080bf64e2dbbe51e71ebec6fb30bf000000005e83ecbe9b3a90befe3a773ec2ba6dbf0bfa743f0000000032a094be000080bfd90807bf51e71ebeb9f818bf00000000be14fbbe00000000000080bf00000000000080bf0000000000000000000080bfb9f8183fbe14fbbe000000bf000000400000000001cdc2bdff3a773eff3a77bf6ec47e3f0000000045bdc8bd000080bf6dc4febe81e9f63f000000bf00000000000000bf01cdc2bdff3a773eff3a77bf6ec47e3f0000000045bdc8bd000080bfc5ace5beeb2207beb9f818bf00000000be14fbbe01cdc2bdff3a773eff3a77bf6ec47e3f0000000045bdc8bd000080bf0aee0bbfeb2207be000000bf00000000000000bf00000000000080bf00000000000080bf0000000000000000000080bf0000003f000000bf000000bf000000400000000001cdc23dff3a773eff3a77bf6dc47e3f033bf73043bdc83d000080bf6dc4febef5f0f93f8e0ecebe00000000be14fbbe01cdc23dff3a773eff3a77bf6dc47e3f033bf73043bdc83d000080bfc6ace5be9fceddbd000000bf00000000000000bf01cdc23dff3a773eff3a77bf6dc47e3f033bf73043bdc83d000080bf0bee0bbf9fceddbd8e0ecebe00000000be14fbbe00000000000080bf00000000000080bf0000000000000000000080bf8e0ece3ebe14fbbe000000bf00000040000000009f3a903eff3a773ec1ba6dbf0afa743ffd3a77b237a0943e000080bf09faf4be83e9fc3f72089ebe000000005d83ecbe9f3a903eff3a773ec1ba6dbf0afa743ffd3a77b237a0943e000080bf61e2dbbed145aebd8e0ecebe00000000be14fbbe9f3a903eff3a773ec1ba6dbf0afa743ffd3a77b237a0943e000080bfd80807bfd145aebd72089ebe000000005d83ecbe00000000000080bf00000000000080bf0000000000000000000080bf72089e3e5d83ecbe000000bf00000040000000000f37ea3efe3a773ec0175bbf97c5613f00000000eb5af13e000080bf97c5e1beeeb5ff3f528c63be0000000033dbd4be0f37ea3efe3a773ec0175bbf97c5613f00000000eb5af13e000080bff4adc8be0f7f81bd72089ebe000000005d83ecbe0f37ea3efe3a773ec0175bbf97c5613f00000000eb5af13e000080bf3addfabe0f7f81bd528c63be0000000033dbd4be00000000000080bf00000000000080bf0000000000000000000080bf528c633e33dbd4be000000bf0000004000000000a7991d3ffe3a773e550940bf05e4453ffe3af7b19767223f000080bf05e4c5be581d01401ef615be00000000f504b5bea7991d3ffe3a773e550940bf05e4453ffe3af7b19767223f000080bf5fccacbeb56532bd528c63be0000000033dbd4bea7991d3ffe3a773e550940bf05e4453ffe3af7b19767223f000080bfadfbdebeb56532bd1ef615be00000000f504b5be00000000000080bf00000000000080bf0000000000000000000080bf1ef6153ef504b5be000000bf00000040000000005009403fff3a773eac991dbf9d67223f00000000ffe3453f000080bf9d67a2be822f02403c93acbd00000000db398ebe5009403fff3a773eac991dbf9d67223f00000000ffe3453f000080bff24f89be93b6dbbc1ef615be00000000f504b5be5009403fff3a773eac991dbf9d67223f00000000ffe3453f000080bf417fbbbe93b6dbbc3c93acbd00000000db398ebe00000000000080bf00000000000080bf0000000000000000000080bf3c93ac3ddb398ebe000000bf0000004000000000c0175b3fff3a773e0f37eabeeb5af13e0000000098c5613f000080bfea5a71beeb06034008e51bbd0000000015ef43bec0175b3fff3a773e0f37eabeeb5af13e0000000098c5613f000080bf9b2b3fbe7a0460bc3c93acbd00000000db398ebec0175b3fff3a773e0f37eabeeb5af13e0000000098c5613f000080bf1dc591be7a0460bc08e51bbd0000000015ef43be00000000000080bf00000000000080bf0000000000000000000080bf08e51b3d15ef43be000000bf0000004000000000c2ba6d3fff3a773e973a90be2fa0943e003bf7310cfa743f000080bf2ea014be4b9b034020681dbc00000000bcc5c7bdc2ba6d3fff3a773e973a90be2fa0943e003bf7310cfa743f000080bfc2e1c4bd654897bb08e51bbd0000000015ef43bec2ba6d3fff3a773e973a90be2fa0943e003bf7310cfa743f000080bf7ecf46be674897bb20681dbc00000000bcc5c7bd00000000000080bf00000000000080bf0000000000000000000080bf20681d3cbcc5c7bd000000bf0000004000000000ff3a773fff3a773ee6ccc2bd29bdc83d003bf7306ec47e3f000080bf27bd48bdf0e60340000000000000000000000000ff3a773fff3a773ee6ccc2bd29bdc83d003bf7306ec47e3f000080bf000000000000000020681dbc00000000bcc5c7bdff3a773fff3a773ee6ccc2bd29bdc83d003bf7306ec47e3f000080bf30bdc8bd60508dad
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -0.5, y: 1, z: 0}
-    m_Extent: {x: 0.5, y: 1, z: 0.5}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimized: 0
-  m_StreamData:
-    offset: 0
-    size: 0
-    path: 
