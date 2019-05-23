@@ -37,6 +37,8 @@ public class Player_RigidMove : MonoBehaviour
     private bool Rleg_trans = false;         //プレイヤが縮むflg
     private bool Larm_trans = false;         //プレイヤが縮むflg
     private bool Lleg_trans = false;         //プレイヤが縮むflg
+    private bool JumpFlg;
+    private double Jump_FrameCnt;
 
 
     // Start is called before the first frame update
@@ -48,6 +50,7 @@ public class Player_RigidMove : MonoBehaviour
         Rleg_trans = false;
         Larm_trans = false;
         Lleg_trans = false;
+        JumpFlg = false;
     }
 
     // Update is called once per frame
@@ -100,16 +103,31 @@ public class Player_RigidMove : MonoBehaviour
 
                 }
             }
-            if (GoldFish.Get_OtherPlayer() == true)
-            {
-                if(Input.GetButtonDown(Button_RStick) || Input.GetButtonDown(Button_B))
-                {
-                    rigidbody.AddForce(0, jump_power, 0);
-                }
-            }
+            
             
             //徒歩移動
         }
+
+        if (GoldFish.Get_OtherPlayer() == true)
+        {
+            if (Input.GetButtonDown(Button_RStick) || Input.GetButtonDown(Button_B))
+            {
+                JumpFlg = true;
+                Jump_FrameCnt = 0;
+            }
+        }
+
+        if (JumpFlg)
+        {
+            // 強制移動
+            this.transform.position += new Vector3(0, jump_power, 0);
+            Jump_FrameCnt++;
+        }
+        if(Jump_FrameCnt >= 30)
+        {
+            JumpFlg = false;
+        }
+
 
 
         //if (own.Get_Kinema() == true)

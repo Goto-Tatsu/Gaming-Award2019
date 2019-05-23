@@ -131,49 +131,7 @@ public class player : MonoBehaviour
                 center_rotate = 4;
             }
 
-        //if (GoldFish.Get_OtherPlayer() == false)
-        //{
-        //    if ((RigidZ >= 0 && RigidZ < 18) || (RigidZ >= 342 && RigidZ < 360))
-        //    {
-        //        center_rotate = 5;
-        //    }
-        //    if (RigidZ >= 18 && RigidZ < 54)
-        //    {
-        //        center_rotate = 6;
-        //    }
-        //    if (RigidZ >= 54 && RigidZ < 90)
-        //    {
-        //        center_rotate = 7;
-        //    }
-        //    if (RigidZ >= 90 && RigidZ < 126)
-        //    {
-        //        center_rotate = 8;
-        //    }
-        //    if (RigidZ >= 126 && RigidZ < 162)
-        //    {
-        //        center_rotate = 9;
-        //    }
-        //    if (RigidZ >= 162 && RigidZ < 198)
-        //    {
-        //        center_rotate = 10;
-        //    }
-        //    if (RigidZ >= 198 && RigidZ < 234)
-        //    {
-        //        center_rotate = 11;
-        //    }
-        //    if (RigidZ >= 234 && RigidZ < 270)
-        //    {
-        //        center_rotate = 12;
-        //    }
-        //    if (RigidZ >= 270 && RigidZ < 306)
-        //    {
-        //        center_rotate = 13;
-        //    }
-        //    if (RigidZ >= 306 && RigidZ < 342)
-        //    {
-        //        center_rotate = 14;
-        //    }
-        //}
+        
 
 
 
@@ -279,20 +237,20 @@ public class player : MonoBehaviour
                 //transform.RotateAround(hitPos, Vector3.forward, -(float)kinema_angle);
             }
 
-            //else if (!kinematic)
-            //{
-            //    if (kinema_UpDown_flg) // 当たってるところが自分より低い
-            //    {
-            //        if (b >= -0.5 && b <= 0.5 && j == -1)
-            //        {
-            //            transform.RotateAround(hitPos, Vector3.forward, -PRotSpeed);  // 右回転
-            //        }
-            //        if (b >= -0.5 && b <= 0.5 && j == 1)
-            //        {
-            //            transform.RotateAround(hitPos, Vector3.forward, PRotSpeed); // 左回転
-            //        }
-            //    }
-            //}
+            else if (!kinematic)
+            {
+                if (kinema_UpDown_flg) // 当たってるところが自分より低い
+                {
+                    if (b >= -0.5 && b <= 0.5 && j == -1)
+                    {
+                        transform.RotateAround(hitPos, Vector3.forward, -PRotSpeed);  // 右回転
+                    }
+                    if (b >= -0.5 && b <= 0.5 && j == 1)
+                    {
+                        transform.RotateAround(hitPos, Vector3.forward, PRotSpeed); // 左回転
+                    }
+                }
+            }
         }
 
         // 尖ったら
