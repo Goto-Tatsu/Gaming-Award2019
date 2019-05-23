@@ -264,17 +264,7 @@ public class player : MonoBehaviour
 
                 //transform.RotateAround(hitPos, Vector3.forward, -(float)kinema_angle);
             }
-            if (kinema_UpDown_flg) // 当たってるところが自分より低い
-            {
-                if (b >= -0.5 && b <= 0.5 && j == -1)
-                {
-                    transform.RotateAround(hitPos, Vector3.forward, -PRotSpeed);  // 右回転
-                }
-                if (b >= -0.5 && b <= 0.5 && j == 1)
-                {
-                    transform.RotateAround(hitPos, Vector3.forward, PRotSpeed); // 左回転
-                }
-            }
+
             if (!kinema_UpDown_flg) // 当たっているところが自分より高い
             {
                 if (b >= -0.5 && b <= 0.5 && j == -1)
@@ -289,6 +279,20 @@ public class player : MonoBehaviour
                 //transform.RotateAround(hitPos, Vector3.forward, -(float)kinema_angle);
             }
 
+            else if (!kinematic)
+            {
+                if (kinema_UpDown_flg) // 当たってるところが自分より低い
+                {
+                    if (b >= -0.5 && b <= 0.5 && j == -1)
+                    {
+                        transform.RotateAround(hitPos, Vector3.forward, -PRotSpeed);  // 右回転
+                    }
+                    if (b >= -0.5 && b <= 0.5 && j == 1)
+                    {
+                        transform.RotateAround(hitPos, Vector3.forward, PRotSpeed); // 左回転
+                    }
+                }
+            }
         }
 
         // 尖ったら
