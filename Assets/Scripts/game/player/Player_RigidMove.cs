@@ -25,7 +25,8 @@ public class Player_RigidMove : MonoBehaviour
     public float execute_wall;      // 壁から離れる距離
     public string Button_B;         // 対応するコントローラーの[B]ボタン
     public string Button_RStick;    // 対応するコントローラーの[Rstick]ボタン
-    public float Distance_division;    // distanceをどのくらい割る(division)か。デフォルト値は[2]。
+    public float Distance_division; // distanceをどのくらい割る(division)か。デフォルト値は[2]。
+    public float FrameSpeed;        // 
 
 
     public Trace GoldFish;
@@ -52,6 +53,7 @@ public class Player_RigidMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (own.Get_Kinema() == false)
         {
 
@@ -110,20 +112,20 @@ public class Player_RigidMove : MonoBehaviour
         }
 
 
-        if (own.Get_Kinema() == true)
-        {
-            if (Input.GetButtonDown(Button_B))
-            {
-                if (own.Get_RL_flg == true)
-                {
-                    this.gameObject.transform.position -= new Vector3(execute_wall, execute_wall, 0.0f);
-                }
-                if (own.Get_RL_flg == false)
-                {
-                    this.gameObject.transform.position += new Vector3(execute_wall, execute_wall, 0.0f);
-                }
-            }
-        }
+        //if (own.Get_Kinema() == true)
+        //{
+        //    if (Input.GetButtonDown(Button_B))
+        //    {
+        //        if (own.Get_RL_flg == true)
+        //        {
+        //            this.gameObject.transform.position -= new Vector3(execute_wall, execute_wall, 0.0f);
+        //        }
+        //        if (own.Get_RL_flg == false)
+        //        {
+        //            this.gameObject.transform.position += new Vector3(execute_wall, execute_wall, 0.0f);
+        //        }
+        //    }
+        //}
 
         //top用-------------------------------------------------------------------------------------------------------
         if (own.Get_Kinema() == true && top.Get_Cling() ==true)
@@ -148,7 +150,7 @@ public class Player_RigidMove : MonoBehaviour
             if (top_shrink.Get_PareTrans == true)
             {
                 distance = (this.rigidbody.position + top_shrink.transform.position) / Distance_division;
-                rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * 30.0f);
+                rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * FrameSpeed);
             }
         }
         //------------------------------------------------------------------------------------------------------------
@@ -175,8 +177,8 @@ public class Player_RigidMove : MonoBehaviour
         {
             if (Rarm_shrink.Get_PareTrans == true)
             {
-                distance = ((this.rigidbody.position + Rarm_shrink.transform.position) / Distance_division);
-                rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * 30.0f);
+                distance = (this.rigidbody.position + top_shrink.transform.position) / Distance_division;
+                rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * FrameSpeed);
             }
         }
         //------------------------------------------------------------------------------------------------------------
@@ -203,8 +205,8 @@ public class Player_RigidMove : MonoBehaviour
         {
             if (Rleg_shrink.Get_PareTrans == true)
             {
-                distance = (this.rigidbody.position + Rleg_shrink.transform.position) / Distance_division;
-                rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * 30.0f);
+                distance = (this.rigidbody.position + top_shrink.transform.position) / Distance_division;
+                rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * FrameSpeed);
             }
         }
         //------------------------------------------------------------------------------------------------------------
@@ -231,8 +233,8 @@ public class Player_RigidMove : MonoBehaviour
         {
             if (Larm_shrink.Get_PareTrans == true)
             {
-                distance = (this.rigidbody.position + Larm_shrink.transform.position) / Distance_division;
-                rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * 30.0f);
+                distance = (this.rigidbody.position + top_shrink.transform.position) / Distance_division;
+                rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * FrameSpeed);
             }
         }
         //------------------------------------------------------------------------------------------------------------
@@ -259,8 +261,8 @@ public class Player_RigidMove : MonoBehaviour
         {
             if (Lleg_shrink.Get_PareTrans == true)
             {
-                distance = (this.rigidbody.position + Lleg_shrink.transform.position) / Distance_division;
-                rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * 30.0f);
+                distance = (this.rigidbody.position + top_shrink.transform.position) / 2;
+                rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * FrameSpeed);
             }
         }
         //------------------------------------------------------------------------------------------------------------
