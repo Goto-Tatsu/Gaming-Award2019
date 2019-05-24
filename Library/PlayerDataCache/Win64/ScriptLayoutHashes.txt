@@ -248,11 +248,11 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 d8fa3ce4e8a174015816bc3577b45829 Assembly-CSharp.dll:.Big_Coin_second
 1d06a31ae50e6d7cf86a8c59db7ac419 Assembly-CSharp.dll:.Player_RigidMove
 c59b7b262532ddaf6b4b26a703ebb05e Assembly-CSharp.dll:.Movetable
-c7c42e52b1049bb469dedcf2aa73864d Assembly-CSharp.dll:.player
+ae6985bd2ba6941f3844caa71d05f4f1 Assembly-CSharp.dll:.player
 2fb40306f2823e0173538602782c9247 Assembly-CSharp.dll:.sharp_Rleg
+ae6985bd2ba6941f3844caa71d05f4f1 Assembly-CSharp.dll:.player
+bf5816b86f114d942fbf0dfcdd6b095c Assembly-CSharp.dll:.testcontroll
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.fishcontroll
 de537a044be74084ef7d42ea2e801d32 Assembly-CSharp.dll:.monkeyControll
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.walkman_rotation
 4cc30776713f69664d886a2ecc539177 Assembly-CSharp.dll:.walkman
-c7c42e52b1049bb469dedcf2aa73864d Assembly-CSharp.dll:.player
-bf5816b86f114d942fbf0dfcdd6b095c Assembly-CSharp.dll:.testcontroll
