@@ -11,7 +11,6 @@ public class player : MonoBehaviour
     public sharp_Lleg Lleg;       //プレイヤー情報取得
     public Trace GoldFish;
     public Status status;
-    public Big_Coin big_Coin;
     private bool bCoinCol;
     private float PlayerHP;
     private float scoreCoin;
