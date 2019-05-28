@@ -113,20 +113,18 @@ public class Player_RigidMove : MonoBehaviour
             if (Input.GetButtonDown(Button_R) || Input.GetButtonDown(Button_B))
             {
                 JumpFlg = true;
-                Jump_FrameCnt = 0;
+                
             }
         }
 
         if (JumpFlg)
         {
             // 強制移動
-            this.transform.position += new Vector3(0, jump_power, 0);
-            Jump_FrameCnt++;
-        }
-        if(Jump_FrameCnt >= 30)
-        {
+            rigidbody.AddForce(0, jump_power, 0);
             JumpFlg = false;
+            
         }
+        
 
 
 

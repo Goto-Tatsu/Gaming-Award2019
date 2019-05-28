@@ -94,10 +94,9 @@ public class player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        rigid_rotate = transform.eulerAngles;
-        RigidZ = rigid_rotate.z;
-
+            rigid_rotate = transform.eulerAngles;
+            RigidZ = rigid_rotate.z;
+     
         //Debug.Log(playHP);
         //topが上
 
@@ -152,10 +151,12 @@ public class player : MonoBehaviour
         if (kinematic == true)
         {
             //if ((Rarm.Get_Cling() == true) || (Rleg.Get_Cling() == true) || (Larm.Get_Cling() == true) || (Lleg.Get_Cling() == true) || (top.Get_Cling() == true))
-            
 
+            if (!Input.GetButton("PS4 R1"))
+            {
                 rigidbody.velocity = Vector3.zero;
                 rigidbody.angularVelocity = Vector3.zero;
+            }
                 //rigidbody.useGravity = false;
                 //rigidbody.isKinematic = true;
 
