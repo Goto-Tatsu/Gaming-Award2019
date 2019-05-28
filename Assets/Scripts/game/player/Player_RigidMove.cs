@@ -24,7 +24,7 @@ public class Player_RigidMove : MonoBehaviour
     public float jump_power;        // ジャンプ力
     public float execute_wall;      // 壁から離れる距離
     public string Button_B;         // 対応するコントローラーの[B]ボタン
-    public string Button_RStick;    // 対応するコントローラーの[Rstick]ボタン
+    public string Button_R;    // 対応するコントローラーの[Rstick]ボタン
     public float Distance_division; // distanceをどのくらい割る(division)か。デフォルト値は[2]。
     public float FrameSpeed;        // 
 
@@ -110,7 +110,7 @@ public class Player_RigidMove : MonoBehaviour
 
         if (GoldFish.Get_OtherPlayer() == true)
         {
-            if (Input.GetButtonDown(Button_RStick) || Input.GetButtonDown(Button_B))
+            if (Input.GetButtonDown(Button_R) || Input.GetButtonDown(Button_B))
             {
                 JumpFlg = true;
                 Jump_FrameCnt = 0;
