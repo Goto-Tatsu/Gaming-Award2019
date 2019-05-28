@@ -114,6 +114,12 @@
     <Compile Include="Assets\Scripts\game\Enemy\balloonControll.cs" />
     <Compile Include="Assets\Scripts\game\FindPrim_AddCeilingTag.cs" />
     <Compile Include="Assets\Scripts\game\FindPrim_AddWallTag.cs" />
+    <Compile Include="Assets\Scripts\game\Gimmick\conveyor.cs" />
+    <Compile Include="Assets\Scripts\game\Gimmick\conveyor_left.cs" />
+    <Compile Include="Assets\Scripts\game\Gimmick\gear.cs" />
+    <Compile Include="Assets\Scripts\game\Gimmick\Pillar.cs" />
+    <Compile Include="Assets\Scripts\game\Gimmick\Pres_Pillar.cs" />
+    <Compile Include="Assets\Scripts\game\Gimmick\Press.cs" />
     <Compile Include="Assets\Scripts\game\invincible.cs" />
     <Compile Include="Assets\Scripts\game\Item\Big_Coin.cs" />
     <Compile Include="Assets\Scripts\game\Item\Big_Coin_first.cs" />
