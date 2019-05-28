@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class conveyor : MonoBehaviour
 {
-    private float m_uvSpeed = -0.5f;
-    private float m_movePower = 300.0f;
+    public float m_uvSpeed = -0.5f;
+    public float m_movePower = 300.0f;
     GameObject player;
     /// <summary>
     /// テクスチャのUV値をスクロールさせて、ベルトコンベアの見た目を表現する
