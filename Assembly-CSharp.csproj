@@ -111,6 +111,7 @@
     <Compile Include="Assets\Scripts\game\BigCoinManager.cs" />
     <Compile Include="Assets\Scripts\game\camera2D.cs" />
     <Compile Include="Assets\Scripts\game\Effect.cs" />
+    <Compile Include="Assets\Scripts\game\Enemy\Balloon_Title.cs" />
     <Compile Include="Assets\Scripts\game\Enemy\balloonControll.cs" />
     <Compile Include="Assets\Scripts\game\FindPrim_AddCeilingTag.cs" />
     <Compile Include="Assets\Scripts\game\FindPrim_AddWallTag.cs" />
@@ -132,6 +133,7 @@
     <Compile Include="Assets\Scripts\game\player\player.cs" />
     <Compile Include="Assets\Scripts\game\player\Player_collider_vision.cs" />
     <Compile Include="Assets\Scripts\game\player\Player_RigidMove.cs" />
+    <Compile Include="Assets\Scripts\game\player\Player_Title.cs" />
     <Compile Include="Assets\Scripts\game\player\sharp_Larm.cs" />
     <Compile Include="Assets\Scripts\game\player\sharp_Larm_shrink.cs" />
     <Compile Include="Assets\Scripts\game\player\sharp_Lleg.cs" />
