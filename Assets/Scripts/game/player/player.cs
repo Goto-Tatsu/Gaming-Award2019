@@ -237,7 +237,7 @@ public class player : MonoBehaviour
                 //transform.RotateAround(hitPos, Vector3.forward, -(float)kinema_angle);
             }
 
-            else if (!kinematic)
+            if (!kinematic)
             {
                 if (kinema_UpDown_flg) // 当たってるところが自分より低い
                 {
@@ -299,11 +299,7 @@ public class player : MonoBehaviour
             SoundOn = false;
         }
 
-        //シーンチェンジ
-        if (150 <= this.transform.position.x)
-        {
-            FadeManager.FadeOut("End");
-        }
+        
     }
 
 

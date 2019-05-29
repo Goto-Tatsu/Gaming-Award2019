@@ -15,13 +15,14 @@ public class Balloon_Title : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(PT.Get_Pon==false)
+        if (PT.Get_Pon == false)
         {
             animator.SetBool("Bom", false);
         }
-        if(PT.Get_Pon==true)
+        if (PT.Get_Pon == true)
         {
             animator.SetBool("Bom", true);
+            transform.localScale = new Vector3(1700, 1700,1700);
         }
     }
 }

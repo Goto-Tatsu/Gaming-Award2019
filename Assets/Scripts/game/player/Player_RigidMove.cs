@@ -124,24 +124,24 @@ public class Player_RigidMove : MonoBehaviour
             JumpFlg = false;
             
         }
-        
 
 
 
-        //if (own.Get_Kinema() == true)
-        //{
-        //    if (Input.GetButtonDown(Button_B))
-        //    {
-        //        if (own.Get_RL_flg == true)
-        //        {
-        //            this.gameObject.transform.position -= new Vector3(execute_wall, execute_wall, 0.0f);
-        //        }
-        //        if (own.Get_RL_flg == false)
-        //        {
-        //            this.gameObject.transform.position += new Vector3(execute_wall, execute_wall, 0.0f);
-        //        }
-        //    }
-        //}
+
+        if (own.Get_Kinema() == true)
+        {
+            if (Input.GetButtonDown(Button_B))
+            {
+                if (own.Get_RL_flg == true)
+                {
+                    this.gameObject.transform.position -= new Vector3(execute_wall, execute_wall, 0.0f);
+                }
+                if (own.Get_RL_flg == false)
+                {
+                    this.gameObject.transform.position += new Vector3(execute_wall, execute_wall, 0.0f);
+                }
+            }
+        }
 
         //top用-------------------------------------------------------------------------------------------------------
         if (own.Get_Kinema() == true && top.Get_Cling() ==true)

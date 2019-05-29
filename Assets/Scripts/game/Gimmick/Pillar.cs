@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class Pillar : MonoBehaviour
 {
+    public float speed;         //伸び縮みの速さ
+    public float interval;      //フラグ切り替えの間隔
+    public float fall;          //落ちる距離
 
-    public Pres_Pillar press_pillar;
+    
     private bool press;         //下がり上がりフラグ
     private float counter;
     private float i;
@@ -20,17 +23,17 @@ public class Pillar : MonoBehaviour
     {
         if (press == false)
         {
-            if (i < press_pillar.Get_Fall)
+            if (i < fall)
             {
-                i += press_pillar.Get_Speed;
-                transform.localScale += new Vector3(0.0f, press_pillar.Get_Speed, 0.0f);
+                i += speed;
+                transform.localScale += new Vector3(0.0f, speed, 0.0f);
             }
-            Debug.Log(press_pillar.Get_Fall);
-            if (i >= press_pillar.Get_Fall)
+            Debug.Log(fall);
+            if (i >= fall)
             {
                 //transform.position += new Vector3(0.0f, 0.0f, 0.0f);
                 counter++;
-                if (counter > press_pillar.Get_Interval)
+                if (counter > interval)
                 {
                     press = true;
                     counter = 0;
@@ -41,16 +44,16 @@ public class Pillar : MonoBehaviour
 
         if (press == true)
         {
-            if (i < press_pillar.Get_Fall)
+            if (i < fall)
             {
-                i += press_pillar.Get_Speed;
-                transform.localScale += new Vector3(0.0f, -press_pillar.Get_Speed, 0.0f);
+                i += speed;
+                transform.localScale += new Vector3(0.0f, -speed, 0.0f);
             }
-            if (i >= press_pillar.Get_Fall)
+            if (i >= fall)
             {
                 //transform.position += new Vector3(0.0f, 0.0f, 0.0f);
                 counter++;
-                if (counter > press_pillar.Get_Interval)
+                if (counter > interval)
                 {
                     press = false;
                     counter = 0;
