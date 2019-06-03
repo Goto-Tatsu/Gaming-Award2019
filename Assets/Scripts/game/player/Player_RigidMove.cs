@@ -16,6 +16,7 @@ public class Player_RigidMove : MonoBehaviour
     public sharp_Rleg_shrink Rleg_shrink;
     public sharp_Lleg Lleg;       //プレイヤー情報取得
     public sharp_Lleg_shrink Lleg_shrink;
+    public GoalFlag1 goalFlag;
 
 
     public float player_speed;
@@ -24,8 +25,14 @@ public class Player_RigidMove : MonoBehaviour
     public float jump_power;        // ジャンプ力
     public float execute_wall;      // 壁から離れる距離
     public string Button_B;         // 対応するコントローラーの[B]ボタン
+<<<<<<< HEAD
     public string Button_RStick;    // 対応するコントローラーの[Rstick]ボタン
     public float Distance_division; // distanceをどのくらい割る(division)か。デフォルト値は[2]
+=======
+    public string Button_R;    // 対応するコントローラーの[Rstick]ボタン
+    public float Distance_division; // distanceをどのくらい割る(division)か。デフォルト値は[2]。
+    public float FrameSpeed;        // 
+>>>>>>> work20190528
 
 
     public Trace GoldFish;
@@ -36,6 +43,8 @@ public class Player_RigidMove : MonoBehaviour
     private bool Rleg_trans = false;         //プレイヤが縮むflg
     private bool Larm_trans = false;         //プレイヤが縮むflg
     private bool Lleg_trans = false;         //プレイヤが縮むflg
+    private bool JumpFlg;
+    private double Jump_FrameCnt;
 
 
     // Start is called before the first frame update
@@ -47,70 +56,81 @@ public class Player_RigidMove : MonoBehaviour
         Rleg_trans = false;
         Larm_trans = false;
         Lleg_trans = false;
+        JumpFlg = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        if (own.Get_Kinema() == false)
+        if (!goalFlag.Get_Goal())
         {
-
-            if (own.Get_ControLeftX() < -0.8 || Input.GetKey(KeyCode.A))
+            if (own.Get_Kinema() == false)
             {
-                if (rigidbody.velocity.magnitude <= player_max_speed)
+
+                if (own.Get_ControLeftX() < -0.8 || Input.GetKey(KeyCode.A))
                 {
-                    //左に傾いている
-                    rigidbody.AddForce(-player_speed, 0, 0);
+                    if (rigidbody.velocity.magnitude <= player_max_speed)
+                    {
+                        //左に傾いている
+                        rigidbody.AddForce(-player_speed, 0, 0);
+                    }
                 }
-            }
-            else if (own.Get_ControLeftX() > 0.8 || Input.GetKey(KeyCode.D))
-            {
-                if (rigidbody.velocity.magnitude <= player_max_speed)
+                else if (own.Get_ControLeftX() > 0.8 || Input.GetKey(KeyCode.D))
                 {
-                    //右に傾いている
-                    rigidbody.AddForce(player_speed, 0, 0);
+                    if (rigidbody.velocity.magnitude <= player_max_speed)
+                    {
+                        //右に傾いている
+                        rigidbody.AddForce(player_speed, 0, 0);
+                    }
                 }
+
+                if (own.Get_ControLeftX() >= -0.8 && own.Get_ControLeftX() < -0.4)
+                {
+                    if (rigidbody.velocity.magnitude <= player_max_speed_half)
+                    {
+                        rigidbody.AddForce(-player_speed, 0, 0);
+                    }
+                }
+                else if (own.Get_ControLeftX() <= 0.8 && own.Get_ControLeftX() > 0.4)
+                {
+                    if (rigidbody.velocity.magnitude <= player_max_speed_half)
+                    {
+                        rigidbody.AddForce(player_speed, 0, 0);
+                    }
+                }
+
+
+                //空中判定
+                if (GoldFish.Get_OtherPlayer() == false)
+                {
+                    if ((Rarm.Get_Cling() == true) || (Rleg.Get_Cling() == true) || (Larm.Get_Cling() == true) || (Lleg.Get_Cling() == true) || (top.Get_Cling() == true))
+                    {
+
+                        rigidbody.angularVelocity = Vector3.zero;
+
+                    }
+                }
+
+
+                //徒歩移動
             }
 
-            if(own.Get_ControLeftX() >= -0.8 && own.Get_ControLeftX() < -0.4)
-            {
-                if (rigidbody.velocity.magnitude <= player_max_speed_half)
-                {
-                    rigidbody.AddForce(-player_speed, 0, 0);
-                }
-            }
-            else if (own.Get_ControLeftX() <= 0.8 && own.Get_ControLeftX() > 0.4)
-            {
-                if (rigidbody.velocity.magnitude <= player_max_speed_half)
-                {
-                    rigidbody.AddForce(player_speed, 0, 0);
-                }
-            }
-
-
-            //空中判定
-            if (GoldFish.Get_OtherPlayer() == false)
-            {
-                if ((Rarm.Get_Cling() == true) || (Rleg.Get_Cling() == true) || (Larm.Get_Cling() == true) || (Lleg.Get_Cling() == true) || (top.Get_Cling() == true))
-                {
-
-                    rigidbody.angularVelocity = Vector3.zero;
-
-                }
-            }
             if (GoldFish.Get_OtherPlayer() == true)
             {
-                if(Input.GetButtonDown(Button_RStick) || Input.GetButtonDown(Button_B))
+                if (Input.GetButtonDown(Button_R) || Input.GetButtonDown(Button_B))
                 {
-                    rigidbody.AddForce(0, jump_power, 0);
+                    JumpFlg = true;
+
                 }
             }
-            
-            //徒歩移動
-        }
 
+            if (JumpFlg)
+            {
+                // 強制移動
+                rigidbody.AddForce(0, jump_power, 0);
+                JumpFlg = false;
 
+<<<<<<< HEAD
         if (own.Get_Kinema() == true)
         {
             if (Input.GetButtonDown(Button_B))
@@ -134,141 +154,197 @@ public class Player_RigidMove : MonoBehaviour
         if (top_trans == true)
         {
             if (own.Get_Kinema() == false)
+=======
+            }
+
+
+
+
+            if (own.Get_Kinema() == true)
+            {
+                if (Input.GetButtonDown(Button_B))
+                {
+                    if (own.Get_RL_flg == true)
+                    {
+                        this.gameObject.transform.position -= new Vector3(execute_wall, -execute_wall, 0.0f);
+                    }
+                    if (own.Get_RL_flg == false)
+                    {
+                        this.gameObject.transform.position += new Vector3(execute_wall, execute_wall, 0.0f);
+                    }
+                }
+            }
+
+            //top用-------------------------------------------------------------------------------------------------------
+            if (own.Get_Kinema() == true && top.Get_Cling() == true)
+            {
+                top_trans = true;
+            }
+            if (top_trans == true)
+            {
+                if (own.Get_Kinema() == false)
+                {
+                    top_trans = false;
+                }
+            }
+            if (top.Get_Fixation() <= 0)
+>>>>>>> work20190528
             {
                 top_trans = false;
             }
-        }
-        if (top.Get_Fixation() <=0)
-        {
-            top_trans = false;
-        }
 
 
-        if (top_trans == true)
-        {
-            if (top_shrink.Get_PareTrans == true)
+            if (top_trans == true)
             {
+<<<<<<< HEAD
                 distance = (this.rigidbody.position + top_shrink.transform.position) / Distance_division;
                 rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * 15.0f);
+=======
+                if (top_shrink.Get_PareTrans == true)
+                {
+                    distance = (this.rigidbody.position + top_shrink.transform.position) / Distance_division;
+                    rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * FrameSpeed);
+                }
+>>>>>>> work20190528
             }
-        }
-        //------------------------------------------------------------------------------------------------------------
+            //------------------------------------------------------------------------------------------------------------
 
-        //Rarm用-------------------------------------------------------------------------------------------------------
-        if (own.Get_Kinema() == true && Rarm.Get_Cling() == true)
-        {
-            Rarm_trans = true;
-        }
-        if(Rarm_trans == true)
-        {
-            if(own.Get_Kinema() ==false)
+            //Rarm用-------------------------------------------------------------------------------------------------------
+            if (own.Get_Kinema() == true && Rarm.Get_Cling() == true)
+            {
+                Rarm_trans = true;
+            }
+            if (Rarm_trans == true)
+            {
+                if (own.Get_Kinema() == false)
+                {
+                    Rarm_trans = false;
+                }
+            }
+            if (Rarm.Get_Fixation() <= 0)
             {
                 Rarm_trans = false;
             }
-        }
-        if (Rarm.Get_Fixation() <= 0)
-        {
-            Rarm_trans = false;
-        }
 
 
-        if (Rarm_trans == true)
-        {
-            if (Rarm_shrink.Get_PareTrans == true)
+            if (Rarm_trans == true)
             {
+<<<<<<< HEAD
                 distance = (this.rigidbody.position + top_shrink.transform.position) / Distance_division;
                 rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * 15.0f);
+=======
+                if (Rarm_shrink.Get_PareTrans == true)
+                {
+                    distance = (this.rigidbody.position + Rarm_shrink.transform.position) / Distance_division;
+                    rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * FrameSpeed);
+                }
+>>>>>>> work20190528
             }
-        }
-        //------------------------------------------------------------------------------------------------------------
+            //------------------------------------------------------------------------------------------------------------
 
-        //Rleg用-------------------------------------------------------------------------------------------------------
-        if (own.Get_Kinema() == true && Rleg.Get_Cling() == true)
-        {
-            Rleg_trans = true;
-        }
-        if (Rleg_trans == true)
-        {
-            if (own.Get_Kinema() == false)
+            //Rleg用-------------------------------------------------------------------------------------------------------
+            if (own.Get_Kinema() == true && Rleg.Get_Cling() == true)
+            {
+                Rleg_trans = true;
+            }
+            if (Rleg_trans == true)
+            {
+                if (own.Get_Kinema() == false)
+                {
+                    Rleg_trans = false;
+                }
+            }
+            if (Rleg.Get_Fixation() <= 0)
             {
                 Rleg_trans = false;
             }
-        }
-        if (Rleg.Get_Fixation() <= 0)
-        {
-            Rleg_trans = false;
-        }
 
 
-        if (Rleg_trans == true)
-        {
-            if (Rleg_shrink.Get_PareTrans == true)
+            if (Rleg_trans == true)
             {
+<<<<<<< HEAD
                 distance = (this.rigidbody.position + top_shrink.transform.position) / Distance_division;
                 rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * 15.0f);
+=======
+                if (Rleg_shrink.Get_PareTrans == true)
+                {
+                    distance = (this.rigidbody.position + Rleg_shrink.transform.position) / Distance_division;
+                    rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * FrameSpeed);
+                }
+>>>>>>> work20190528
             }
-        }
-        //------------------------------------------------------------------------------------------------------------
+            //------------------------------------------------------------------------------------------------------------
 
-        //Larm用-------------------------------------------------------------------------------------------------------
-        if (own.Get_Kinema() == true && Larm.Get_Cling() == true)
-        {
-            Larm_trans = true;
-        }
-        if (Larm_trans == true)
-        {
-            if (own.Get_Kinema() == false)
+            //Larm用-------------------------------------------------------------------------------------------------------
+            if (own.Get_Kinema() == true && Larm.Get_Cling() == true)
+            {
+                Larm_trans = true;
+            }
+            if (Larm_trans == true)
+            {
+                if (own.Get_Kinema() == false)
+                {
+                    Larm_trans = false;
+                }
+            }
+            if (Larm.Get_Fixation() <= 0)
             {
                 Larm_trans = false;
             }
-        }
-        if (Larm.Get_Fixation() <= 0 )
-        {
-            Larm_trans = false;
-        }
 
 
-        if (Larm_trans == true)
-        {
-            if (Larm_shrink.Get_PareTrans == true)
+            if (Larm_trans == true)
             {
+<<<<<<< HEAD
                 distance = (this.rigidbody.position + top_shrink.transform.position) / Distance_division;
                 rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * 15.0f);
+=======
+                if (Larm_shrink.Get_PareTrans == true)
+                {
+                    distance = (this.rigidbody.position + Larm_shrink.transform.position) / Distance_division;
+                    rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * FrameSpeed);
+                }
+>>>>>>> work20190528
             }
-        }
-        //------------------------------------------------------------------------------------------------------------
+            //------------------------------------------------------------------------------------------------------------
 
-        //Lleg用-------------------------------------------------------------------------------------------------------
-        if (own.Get_Kinema() == true && Lleg.Get_Cling() == true)
-        {
-            Lleg_trans = true;
-        }
-        if (Lleg_trans == true)
-        {
-            if (own.Get_Kinema() == false)
+            //Lleg用-------------------------------------------------------------------------------------------------------
+            if (own.Get_Kinema() == true && Lleg.Get_Cling() == true)
+            {
+                Lleg_trans = true;
+            }
+            if (Lleg_trans == true)
+            {
+                if (own.Get_Kinema() == false)
+                {
+                    Lleg_trans = false;
+                }
+            }
+            if (Lleg.Get_Fixation() <= 0)
             {
                 Lleg_trans = false;
             }
-        }
-        if (Lleg.Get_Fixation() <= 0)
-        {
-            Lleg_trans = false;
-        }
 
-       　
-        if (Lleg_trans == true)
-        {
-            if (Lleg_shrink.Get_PareTrans == true)
+
+            if (Lleg_trans == true)
             {
+<<<<<<< HEAD
                 distance = (this.rigidbody.position + top_shrink.transform.position) / 2;
                 rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * 15.0f);
+=======
+                if (Lleg_shrink.Get_PareTrans == true)
+                {
+                    distance = (this.rigidbody.position + Lleg_shrink.transform.position) / 2;
+                    rigidbody.position = Vector3.MoveTowards(this.rigidbody.position, distance, Time.deltaTime * FrameSpeed);
+                }
+>>>>>>> work20190528
             }
+            //------------------------------------------------------------------------------------------------------------
+
+
+            //加速度取
+            //Debug.Log(rigidbody.velocity);
+            //Debug.Log(rigidbody.velocity.magnitude);
         }
-        //------------------------------------------------------------------------------------------------------------
-
-
-        //加速度取
-        //Debug.Log(rigidbody.velocity);
-        //Debug.Log(rigidbody.velocity.magnitude);
     }
 }

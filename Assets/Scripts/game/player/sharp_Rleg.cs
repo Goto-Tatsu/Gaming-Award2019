@@ -294,7 +294,7 @@ public class sharp_Rleg : MonoBehaviour
         {
             //コントーローラ
 
-                if (player.Get_ControX() < -0.4 && player.Get_ControX() >= -1 && player.Get_ControY() == -1)
+                if (player.Get_ControX() <= -0.2 && player.Get_ControX() > -1 && player.Get_ControY() < -0.4)
                 {
                     if (Fixat < max_range)
                     {
@@ -302,7 +302,7 @@ public class sharp_Rleg : MonoBehaviour
                     }
                 }
 
-                if (!(player.Get_ControX() < -0.4 && player.Get_ControX() >= -1 && player.Get_ControY() == -1))
+                if (!(player.Get_ControX() <= -0.2 && player.Get_ControX() > -1 && player.Get_ControY() < -0.4))
                 {
                     if (Fixat > 0.0)
                     {
@@ -324,7 +324,7 @@ public class sharp_Rleg : MonoBehaviour
         if (index == 3)
         {
             //コントーローラ
-            if (player.Get_ControX() > 0.4 && player.Get_ControX() <= 1 && player.Get_ControY() == -1 )
+            if (player.Get_ControX() >= 0.2 && player.Get_ControX() < 1 && player.Get_ControY() <= -0.4)
             {
                 if (Fixat < max_range)
                 {
@@ -332,7 +332,7 @@ public class sharp_Rleg : MonoBehaviour
                 }
             }
 
-            if (!(player.Get_ControX() > 0.4 && player.Get_ControX() <= 1 && player.Get_ControY() == -1 ))
+            if (!(player.Get_ControX() >= 0.2 && player.Get_ControX() < 1 && player.Get_ControY() <= -0.4))
             {
                 if (Fixat > 0.0)
                 {

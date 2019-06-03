@@ -22,7 +22,7 @@ public class Pause : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetButtonDown("PS4 Option"))
+        if (Input.GetButtonDown("PS4 Option") || Input.GetButtonDown("XBOX Start"))
         {
             pauseGame = !pauseGame;
         }

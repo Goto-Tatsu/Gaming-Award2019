@@ -27,14 +27,14 @@ public class Big_Coin_second : MonoBehaviour
         if (Big_coin.Get_CoinEff == true)
         {
             Get_flg = true;
-            transform.Rotate(new Vector3(0, -32, 0));
+            transform.Rotate(new Vector3(0, -16, 0));
             counter++;
             high++;
             if (counter <= 60)
             {
                 if (high < 5.0f)
                 {
-                    transform.position += new Vector3(0.0f, 1.0f, 0.0f);
+                    transform.position += new Vector3(0.0f, 0.5f, 0.0f);
                 }
 
             }

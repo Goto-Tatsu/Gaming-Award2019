@@ -1,0 +1,1025 @@
+fileFormatVersion: 2
+guid: 9d80e968a54762d4cbfab00f273f0799
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: 17370_Power_belt_conveyor.000
+    100004: 17370_Power_belt_conveyor.001
+    100006: 17370_Power_belt_conveyor.002
+    100008: 17370_Power_belt_conveyor.003
+    100010: Cube.000
+    100012: Cube.001
+    100014: Cube.002
+    100016: Cube.002_Cube.000
+    100018: Cube.002_Cube.001
+    100020: Cube.002_Cube.002
+    100022: Cube.003
+    100024: Cube.003_Cube.000
+    100026: Cube.003_Cube.001
+    100028: Cube.003_Cube.002
+    100030: Cube.004
+    100032: Cube.004_Cube.000
+    100034: Cube.004_Cube.001
+    100036: Cube.004_Cube.002
+    100038: Cube.005
+    100040: Cube.005_Cube.000
+    100042: Cube.005_Cube.001
+    100044: Cube.005_Cube.002
+    100046: Cube.006
+    100048: Cube.006_Cube.000
+    100050: Cube.006_Cube.001
+    100052: Cube.006_Cube.002
+    100054: Cube.007
+    100056: Cube.007_Cube.000
+    100058: Cube.007_Cube.001
+    100060: Cube.007_Cube.002
+    100062: Cube.008
+    100064: Cube.008_Cube.000
+    100066: Cube.008_Cube.001
+    100068: Cube.008_Cube.002
+    100070: Cube.009
+    100072: Cube.009_Cube.000
+    100074: Cube.009_Cube.001
+    100076: Cube.009_Cube.002
+    100078: Cube.010
+    100080: Cube.011
+    100082: Cube.012
+    100084: Cube.013
+    100086: Cube.014
+    100088: Cube.015
+    100090: Cube.016
+    100092: Cube.017
+    100094: Cube.018
+    100096: Cube.019
+    100098: Cube.020
+    100100: Cube.021
+    100102: Cube.022
+    100104: Cube.023
+    100106: Cube.024
+    100108: Cube.025
+    100110: Cube.026
+    100112: Cube.027
+    100114: Cube.028
+    100116: Cube.029
+    100118: Cube.030
+    100120: Cube.031
+    100122: Cube.032
+    100124: Cube.033
+    100126: Cube.034
+    100128: Cube.035
+    100130: Cube.036
+    100132: Cube.037
+    100134: Cube.038
+    100136: Cube.039
+    100138: Cube.040
+    100140: Cube.041
+    100142: Cube.042
+    100144: Cube.043
+    100146: Cube.044
+    100148: Cube.045
+    100150: Cube.046
+    100152: Cube.047
+    100154: Cube.048
+    100156: Cube.049
+    100158: Cube.050
+    100160: Cube.051
+    100162: Cube.052
+    100164: Cube.053
+    100166: Cube.054
+    100168: Cube.055
+    100170: Cube.056
+    100172: Cube.057
+    100174: Cube.058
+    100176: Cube.059
+    100178: Cube.060
+    100180: Cube.061
+    100182: Cube.062
+    100184: Cube.063
+    100186: Cube.067
+    100188: Cube.069
+    100190: Cube.070
+    100192: Cube.073
+    100194: Cube.075
+    100196: Cube.077
+    100198: Cube.078
+    100200: Cube.079
+    100202: Cylinder.000
+    100204: Cylinder.001
+    100206: Cylinder.002
+    100208: Cylinder.003
+    100210: Cylinder.004
+    100212: Cylinder.005
+    100214: Cylinder.006
+    100216: Cylinder.007
+    100218: Cylinder.008
+    100220: Cylinder.009
+    100222: Cylinder.010
+    100224: Cylinder.012
+    100226: Cylinder.014_Cylinder.000
+    100228: Cylinder.014_Cylinder.001
+    100230: Cylinder.014_Cylinder.002
+    100232: Cylinder.015_Cylinder.000
+    100234: Cylinder.015_Cylinder.001
+    100236: Cylinder.015_Cylinder.002
+    100238: drum1
+    100240: drum2
+    100242: drum3
+    100244: pCube40.000
+    100246: pCube40.001
+    100248: Plane
+    100250: Plane.001
+    100252: stiege-b Ebene
+    100254: stiege-b Ebene_1
+    100256: stiege-b Floors
+    100258: stiege-b Floors.001
+    100260: stiege-b Floors.002
+    100262: stiege-b Floors.003
+    100264: stiege-b Floors.004
+    100266: stiege-b Floors.005
+    100268: stiege-b Floors.006
+    100270: stiege-b Floors.007
+    100272: stiege-b Floors.008
+    100274: stiege-b Floors.009
+    100276: stiege-b Floors.010
+    100278: stiege-b Floors.011
+    100280: stiege-b Floors.012
+    100282: stiege-b Floors.013
+    100284: stiege-b Floors.014
+    100286: stiege-b g-balken1
+    100288: stiege-b g-balken1.001
+    100290: stiege-b g-balken1.002
+    100292: stiege-b g-balken1.003
+    100294: stiege-b g-balken1.004
+    100296: stiege-b g-balken1.005
+    100298: stiege-b g-balken1.006
+    100300: stiege-b g-balken1.007
+    100302: stiege-b g-balken1.008
+    100304: stiege-b g-balken1.009
+    100306: stiege-b g-balken1.010
+    100308: stiege-b g-balken1.011
+    100310: stiege-b g-balken1.012
+    100312: stiege-b g-balken1.013
+    100314: stiege-b g-balken1_1
+    100316: stiege-b g-balken1_1.001
+    100318: stiege-b g-balken1_1.002
+    100320: stiege-b g-balken1_1.003
+    100322: stiege-b g-balken1_1.004
+    100324: stiege-b g-balken1_1.005
+    100326: stiege-b g-balken1_1.006
+    100328: stiege-b g-balken1_1.007
+    100330: stiege-b g-balken1_1.008
+    100332: stiege-b g-balken1_1.009
+    100334: stiege-b g-balken1_1.010
+    100336: stiege-b g-balken1_1.011
+    100338: stiege-b g-balken1_1.012
+    100340: stiege-b g-balken1_1.013
+    100342: stiege-b s-balken1
+    100344: stiege-b s-balken2
+    100346: stiege-b s-balken3
+    100348: stiege-b s-balken4
+    100350: stiege-b s-balken4_1
+    100352: stiege-b s-balken4_2
+    400000: //RootNode
+    400002: 17370_Power_belt_conveyor.000
+    400004: 17370_Power_belt_conveyor.001
+    400006: 17370_Power_belt_conveyor.002
+    400008: 17370_Power_belt_conveyor.003
+    400010: Cube.000
+    400012: Cube.001
+    400014: Cube.002
+    400016: Cube.002_Cube.000
+    400018: Cube.002_Cube.001
+    400020: Cube.002_Cube.002
+    400022: Cube.003
+    400024: Cube.003_Cube.000
+    400026: Cube.003_Cube.001
+    400028: Cube.003_Cube.002
+    400030: Cube.004
+    400032: Cube.004_Cube.000
+    400034: Cube.004_Cube.001
+    400036: Cube.004_Cube.002
+    400038: Cube.005
+    400040: Cube.005_Cube.000
+    400042: Cube.005_Cube.001
+    400044: Cube.005_Cube.002
+    400046: Cube.006
+    400048: Cube.006_Cube.000
+    400050: Cube.006_Cube.001
+    400052: Cube.006_Cube.002
+    400054: Cube.007
+    400056: Cube.007_Cube.000
+    400058: Cube.007_Cube.001
+    400060: Cube.007_Cube.002
+    400062: Cube.008
+    400064: Cube.008_Cube.000
+    400066: Cube.008_Cube.001
+    400068: Cube.008_Cube.002
+    400070: Cube.009
+    400072: Cube.009_Cube.000
+    400074: Cube.009_Cube.001
+    400076: Cube.009_Cube.002
+    400078: Cube.010
+    400080: Cube.011
+    400082: Cube.012
+    400084: Cube.013
+    400086: Cube.014
+    400088: Cube.015
+    400090: Cube.016
+    400092: Cube.017
+    400094: Cube.018
+    400096: Cube.019
+    400098: Cube.020
+    400100: Cube.021
+    400102: Cube.022
+    400104: Cube.023
+    400106: Cube.024
+    400108: Cube.025
+    400110: Cube.026
+    400112: Cube.027
+    400114: Cube.028
+    400116: Cube.029
+    400118: Cube.030
+    400120: Cube.031
+    400122: Cube.032
+    400124: Cube.033
+    400126: Cube.034
+    400128: Cube.035
+    400130: Cube.036
+    400132: Cube.037
+    400134: Cube.038
+    400136: Cube.039
+    400138: Cube.040
+    400140: Cube.041
+    400142: Cube.042
+    400144: Cube.043
+    400146: Cube.044
+    400148: Cube.045
+    400150: Cube.046
+    400152: Cube.047
+    400154: Cube.048
+    400156: Cube.049
+    400158: Cube.050
+    400160: Cube.051
+    400162: Cube.052
+    400164: Cube.053
+    400166: Cube.054
+    400168: Cube.055
+    400170: Cube.056
+    400172: Cube.057
+    400174: Cube.058
+    400176: Cube.059
+    400178: Cube.060
+    400180: Cube.061
+    400182: Cube.062
+    400184: Cube.063
+    400186: Cube.067
+    400188: Cube.069
+    400190: Cube.070
+    400192: Cube.073
+    400194: Cube.075
+    400196: Cube.077
+    400198: Cube.078
+    400200: Cube.079
+    400202: Cylinder.000
+    400204: Cylinder.001
+    400206: Cylinder.002
+    400208: Cylinder.003
+    400210: Cylinder.004
+    400212: Cylinder.005
+    400214: Cylinder.006
+    400216: Cylinder.007
+    400218: Cylinder.008
+    400220: Cylinder.009
+    400222: Cylinder.010
+    400224: Cylinder.012
+    400226: Cylinder.014_Cylinder.000
+    400228: Cylinder.014_Cylinder.001
+    400230: Cylinder.014_Cylinder.002
+    400232: Cylinder.015_Cylinder.000
+    400234: Cylinder.015_Cylinder.001
+    400236: Cylinder.015_Cylinder.002
+    400238: drum1
+    400240: drum2
+    400242: drum3
+    400244: pCube40.000
+    400246: pCube40.001
+    400248: Plane
+    400250: Plane.001
+    400252: stiege-b Ebene
+    400254: stiege-b Ebene_1
+    400256: stiege-b Floors
+    400258: stiege-b Floors.001
+    400260: stiege-b Floors.002
+    400262: stiege-b Floors.003
+    400264: stiege-b Floors.004
+    400266: stiege-b Floors.005
+    400268: stiege-b Floors.006
+    400270: stiege-b Floors.007
+    400272: stiege-b Floors.008
+    400274: stiege-b Floors.009
+    400276: stiege-b Floors.010
+    400278: stiege-b Floors.011
+    400280: stiege-b Floors.012
+    400282: stiege-b Floors.013
+    400284: stiege-b Floors.014
+    400286: stiege-b g-balken1
+    400288: stiege-b g-balken1.001
+    400290: stiege-b g-balken1.002
+    400292: stiege-b g-balken1.003
+    400294: stiege-b g-balken1.004
+    400296: stiege-b g-balken1.005
+    400298: stiege-b g-balken1.006
+    400300: stiege-b g-balken1.007
+    400302: stiege-b g-balken1.008
+    400304: stiege-b g-balken1.009
+    400306: stiege-b g-balken1.010
+    400308: stiege-b g-balken1.011
+    400310: stiege-b g-balken1.012
+    400312: stiege-b g-balken1.013
+    400314: stiege-b g-balken1_1
+    400316: stiege-b g-balken1_1.001
+    400318: stiege-b g-balken1_1.002
+    400320: stiege-b g-balken1_1.003
+    400322: stiege-b g-balken1_1.004
+    400324: stiege-b g-balken1_1.005
+    400326: stiege-b g-balken1_1.006
+    400328: stiege-b g-balken1_1.007
+    400330: stiege-b g-balken1_1.008
+    400332: stiege-b g-balken1_1.009
+    400334: stiege-b g-balken1_1.010
+    400336: stiege-b g-balken1_1.011
+    400338: stiege-b g-balken1_1.012
+    400340: stiege-b g-balken1_1.013
+    400342: stiege-b s-balken1
+    400344: stiege-b s-balken2
+    400346: stiege-b s-balken3
+    400348: stiege-b s-balken4
+    400350: stiege-b s-balken4_1
+    400352: stiege-b s-balken4_2
+    2100000: Material.014
+    2100002: Material.013
+    2100004: Material.015
+    2100006: Asphalt-02
+    2100008: Wood_-_Mahogany
+    2100010: Concrete-02
+    2100012: Chrome.001
+    2100014: StingrayPBS5
+    2100016: StingrayPBS4
+    2100018: StingrayPBS3
+    2100020: Material.016
+    2100022: Chrome.002
+    2100024: Chrome.003
+    2100026: Material.001
+    2100028: Material.002
+    2100030: Asphalt-02.001
+    2100032: Wood_-_Mahogany.001
+    2100034: Asphalt-02.002
+    2100036: Wood_-_Mahogany.002
+    2100038: Asphalt-02.004
+    2100040: Asphalt-02.003
+    2100042: Wood_-_Mahogany.004
+    2100044: Wood_-_Mahogany.003
+    2100046: Asphalt-02.006
+    2100048: Asphalt-02.005
+    2100050: Wood_-_Mahogany.006
+    2100052: Wood_-_Mahogany.005
+    2100054: Asphalt-02.008
+    2100056: Asphalt-02.007
+    2100058: Wood_-_Mahogany.008
+    2100060: Wood_-_Mahogany.007
+    2100062: Asphalt-02.010
+    2100064: Asphalt-02.009
+    2100066: Wood_-_Mahogany.010
+    2100068: Wood_-_Mahogany.009
+    2100070: Asphalt-02.012
+    2100072: Asphalt-02.011
+    2100074: Wood_-_Mahogany.012
+    2100076: Wood_-_Mahogany.011
+    2100078: Asphalt-02.013
+    2100080: Wood_-_Mahogany.013
+    2100082: Material.004
+    2100084: Material.003
+    2100086: Material.006
+    2100088: Material.005
+    2100090: Material.008
+    2100092: Material.007
+    2100094: Material.010
+    2100096: Material.009
+    2100098: Material.011
+    2100100: Material.012
+    2300000: 17370_Power_belt_conveyor.000
+    2300002: 17370_Power_belt_conveyor.001
+    2300004: 17370_Power_belt_conveyor.002
+    2300006: 17370_Power_belt_conveyor.003
+    2300008: Cube.000
+    2300010: Cube.001
+    2300012: Cube.002
+    2300014: Cube.002_Cube.000
+    2300016: Cube.002_Cube.001
+    2300018: Cube.002_Cube.002
+    2300020: Cube.003
+    2300022: Cube.003_Cube.000
+    2300024: Cube.003_Cube.001
+    2300026: Cube.003_Cube.002
+    2300028: Cube.004
+    2300030: Cube.004_Cube.000
+    2300032: Cube.004_Cube.001
+    2300034: Cube.004_Cube.002
+    2300036: Cube.005
+    2300038: Cube.005_Cube.000
+    2300040: Cube.005_Cube.001
+    2300042: Cube.005_Cube.002
+    2300044: Cube.006
+    2300046: Cube.006_Cube.000
+    2300048: Cube.006_Cube.001
+    2300050: Cube.006_Cube.002
+    2300052: Cube.007
+    2300054: Cube.007_Cube.000
+    2300056: Cube.007_Cube.001
+    2300058: Cube.007_Cube.002
+    2300060: Cube.008
+    2300062: Cube.008_Cube.000
+    2300064: Cube.008_Cube.001
+    2300066: Cube.008_Cube.002
+    2300068: Cube.009
+    2300070: Cube.009_Cube.000
+    2300072: Cube.009_Cube.001
+    2300074: Cube.009_Cube.002
+    2300076: Cube.010
+    2300078: Cube.011
+    2300080: Cube.012
+    2300082: Cube.013
+    2300084: Cube.014
+    2300086: Cube.015
+    2300088: Cube.016
+    2300090: Cube.017
+    2300092: Cube.018
+    2300094: Cube.019
+    2300096: Cube.020
+    2300098: Cube.021
+    2300100: Cube.022
+    2300102: Cube.023
+    2300104: Cube.024
+    2300106: Cube.025
+    2300108: Cube.026
+    2300110: Cube.027
+    2300112: Cube.028
+    2300114: Cube.029
+    2300116: Cube.030
+    2300118: Cube.031
+    2300120: Cube.032
+    2300122: Cube.033
+    2300124: Cube.034
+    2300126: Cube.035
+    2300128: Cube.036
+    2300130: Cube.037
+    2300132: Cube.038
+    2300134: Cube.039
+    2300136: Cube.040
+    2300138: Cube.041
+    2300140: Cube.042
+    2300142: Cube.043
+    2300144: Cube.044
+    2300146: Cube.045
+    2300148: Cube.046
+    2300150: Cube.047
+    2300152: Cube.048
+    2300154: Cube.049
+    2300156: Cube.050
+    2300158: Cube.051
+    2300160: Cube.052
+    2300162: Cube.053
+    2300164: Cube.054
+    2300166: Cube.055
+    2300168: Cube.056
+    2300170: Cube.057
+    2300172: Cube.058
+    2300174: Cube.059
+    2300176: Cube.060
+    2300178: Cube.061
+    2300180: Cube.062
+    2300182: Cube.063
+    2300184: Cube.067
+    2300186: Cube.069
+    2300188: Cube.070
+    2300190: Cube.073
+    2300192: Cube.075
+    2300194: Cube.077
+    2300196: Cube.078
+    2300198: Cube.079
+    2300200: Cylinder.000
+    2300202: Cylinder.001
+    2300204: Cylinder.002
+    2300206: Cylinder.003
+    2300208: Cylinder.004
+    2300210: Cylinder.005
+    2300212: Cylinder.006
+    2300214: Cylinder.007
+    2300216: Cylinder.008
+    2300218: Cylinder.009
+    2300220: Cylinder.010
+    2300222: Cylinder.012
+    2300224: Cylinder.014_Cylinder.000
+    2300226: Cylinder.014_Cylinder.001
+    2300228: Cylinder.014_Cylinder.002
+    2300230: Cylinder.015_Cylinder.000
+    2300232: Cylinder.015_Cylinder.001
+    2300234: Cylinder.015_Cylinder.002
+    2300236: drum1
+    2300238: drum2
+    2300240: drum3
+    2300242: pCube40.000
+    2300244: pCube40.001
+    2300246: Plane
+    2300248: Plane.001
+    2300250: stiege-b Ebene
+    2300252: stiege-b Ebene_1
+    2300254: stiege-b Floors
+    2300256: stiege-b Floors.001
+    2300258: stiege-b Floors.002
+    2300260: stiege-b Floors.003
+    2300262: stiege-b Floors.004
+    2300264: stiege-b Floors.005
+    2300266: stiege-b Floors.006
+    2300268: stiege-b Floors.007
+    2300270: stiege-b Floors.008
+    2300272: stiege-b Floors.009
+    2300274: stiege-b Floors.010
+    2300276: stiege-b Floors.011
+    2300278: stiege-b Floors.012
+    2300280: stiege-b Floors.013
+    2300282: stiege-b Floors.014
+    2300284: stiege-b g-balken1
+    2300286: stiege-b g-balken1.001
+    2300288: stiege-b g-balken1.002
+    2300290: stiege-b g-balken1.003
+    2300292: stiege-b g-balken1.004
+    2300294: stiege-b g-balken1.005
+    2300296: stiege-b g-balken1.006
+    2300298: stiege-b g-balken1.007
+    2300300: stiege-b g-balken1.008
+    2300302: stiege-b g-balken1.009
+    2300304: stiege-b g-balken1.010
+    2300306: stiege-b g-balken1.011
+    2300308: stiege-b g-balken1.012
+    2300310: stiege-b g-balken1.013
+    2300312: stiege-b g-balken1_1
+    2300314: stiege-b g-balken1_1.001
+    2300316: stiege-b g-balken1_1.002
+    2300318: stiege-b g-balken1_1.003
+    2300320: stiege-b g-balken1_1.004
+    2300322: stiege-b g-balken1_1.005
+    2300324: stiege-b g-balken1_1.006
+    2300326: stiege-b g-balken1_1.007
+    2300328: stiege-b g-balken1_1.008
+    2300330: stiege-b g-balken1_1.009
+    2300332: stiege-b g-balken1_1.010
+    2300334: stiege-b g-balken1_1.011
+    2300336: stiege-b g-balken1_1.012
+    2300338: stiege-b g-balken1_1.013
+    2300340: stiege-b s-balken1
+    2300342: stiege-b s-balken2
+    2300344: stiege-b s-balken3
+    2300346: stiege-b s-balken4
+    2300348: stiege-b s-balken4_1
+    2300350: stiege-b s-balken4_2
+    3300000: 17370_Power_belt_conveyor.000
+    3300002: 17370_Power_belt_conveyor.001
+    3300004: 17370_Power_belt_conveyor.002
+    3300006: 17370_Power_belt_conveyor.003
+    3300008: Cube.000
+    3300010: Cube.001
+    3300012: Cube.002
+    3300014: Cube.002_Cube.000
+    3300016: Cube.002_Cube.001
+    3300018: Cube.002_Cube.002
+    3300020: Cube.003
+    3300022: Cube.003_Cube.000
+    3300024: Cube.003_Cube.001
+    3300026: Cube.003_Cube.002
+    3300028: Cube.004
+    3300030: Cube.004_Cube.000
+    3300032: Cube.004_Cube.001
+    3300034: Cube.004_Cube.002
+    3300036: Cube.005
+    3300038: Cube.005_Cube.000
+    3300040: Cube.005_Cube.001
+    3300042: Cube.005_Cube.002
+    3300044: Cube.006
+    3300046: Cube.006_Cube.000
+    3300048: Cube.006_Cube.001
+    3300050: Cube.006_Cube.002
+    3300052: Cube.007
+    3300054: Cube.007_Cube.000
+    3300056: Cube.007_Cube.001
+    3300058: Cube.007_Cube.002
+    3300060: Cube.008
+    3300062: Cube.008_Cube.000
+    3300064: Cube.008_Cube.001
+    3300066: Cube.008_Cube.002
+    3300068: Cube.009
+    3300070: Cube.009_Cube.000
+    3300072: Cube.009_Cube.001
+    3300074: Cube.009_Cube.002
+    3300076: Cube.010
+    3300078: Cube.011
+    3300080: Cube.012
+    3300082: Cube.013
+    3300084: Cube.014
+    3300086: Cube.015
+    3300088: Cube.016
+    3300090: Cube.017
+    3300092: Cube.018
+    3300094: Cube.019
+    3300096: Cube.020
+    3300098: Cube.021
+    3300100: Cube.022
+    3300102: Cube.023
+    3300104: Cube.024
+    3300106: Cube.025
+    3300108: Cube.026
+    3300110: Cube.027
+    3300112: Cube.028
+    3300114: Cube.029
+    3300116: Cube.030
+    3300118: Cube.031
+    3300120: Cube.032
+    3300122: Cube.033
+    3300124: Cube.034
+    3300126: Cube.035
+    3300128: Cube.036
+    3300130: Cube.037
+    3300132: Cube.038
+    3300134: Cube.039
+    3300136: Cube.040
+    3300138: Cube.041
+    3300140: Cube.042
+    3300142: Cube.043
+    3300144: Cube.044
+    3300146: Cube.045
+    3300148: Cube.046
+    3300150: Cube.047
+    3300152: Cube.048
+    3300154: Cube.049
+    3300156: Cube.050
+    3300158: Cube.051
+    3300160: Cube.052
+    3300162: Cube.053
+    3300164: Cube.054
+    3300166: Cube.055
+    3300168: Cube.056
+    3300170: Cube.057
+    3300172: Cube.058
+    3300174: Cube.059
+    3300176: Cube.060
+    3300178: Cube.061
+    3300180: Cube.062
+    3300182: Cube.063
+    3300184: Cube.067
+    3300186: Cube.069
+    3300188: Cube.070
+    3300190: Cube.073
+    3300192: Cube.075
+    3300194: Cube.077
+    3300196: Cube.078
+    3300198: Cube.079
+    3300200: Cylinder.000
+    3300202: Cylinder.001
+    3300204: Cylinder.002
+    3300206: Cylinder.003
+    3300208: Cylinder.004
+    3300210: Cylinder.005
+    3300212: Cylinder.006
+    3300214: Cylinder.007
+    3300216: Cylinder.008
+    3300218: Cylinder.009
+    3300220: Cylinder.010
+    3300222: Cylinder.012
+    3300224: Cylinder.014_Cylinder.000
+    3300226: Cylinder.014_Cylinder.001
+    3300228: Cylinder.014_Cylinder.002
+    3300230: Cylinder.015_Cylinder.000
+    3300232: Cylinder.015_Cylinder.001
+    3300234: Cylinder.015_Cylinder.002
+    3300236: drum1
+    3300238: drum2
+    3300240: drum3
+    3300242: pCube40.000
+    3300244: pCube40.001
+    3300246: Plane
+    3300248: Plane.001
+    3300250: stiege-b Ebene
+    3300252: stiege-b Ebene_1
+    3300254: stiege-b Floors
+    3300256: stiege-b Floors.001
+    3300258: stiege-b Floors.002
+    3300260: stiege-b Floors.003
+    3300262: stiege-b Floors.004
+    3300264: stiege-b Floors.005
+    3300266: stiege-b Floors.006
+    3300268: stiege-b Floors.007
+    3300270: stiege-b Floors.008
+    3300272: stiege-b Floors.009
+    3300274: stiege-b Floors.010
+    3300276: stiege-b Floors.011
+    3300278: stiege-b Floors.012
+    3300280: stiege-b Floors.013
+    3300282: stiege-b Floors.014
+    3300284: stiege-b g-balken1
+    3300286: stiege-b g-balken1.001
+    3300288: stiege-b g-balken1.002
+    3300290: stiege-b g-balken1.003
+    3300292: stiege-b g-balken1.004
+    3300294: stiege-b g-balken1.005
+    3300296: stiege-b g-balken1.006
+    3300298: stiege-b g-balken1.007
+    3300300: stiege-b g-balken1.008
+    3300302: stiege-b g-balken1.009
+    3300304: stiege-b g-balken1.010
+    3300306: stiege-b g-balken1.011
+    3300308: stiege-b g-balken1.012
+    3300310: stiege-b g-balken1.013
+    3300312: stiege-b g-balken1_1
+    3300314: stiege-b g-balken1_1.001
+    3300316: stiege-b g-balken1_1.002
+    3300318: stiege-b g-balken1_1.003
+    3300320: stiege-b g-balken1_1.004
+    3300322: stiege-b g-balken1_1.005
+    3300324: stiege-b g-balken1_1.006
+    3300326: stiege-b g-balken1_1.007
+    3300328: stiege-b g-balken1_1.008
+    3300330: stiege-b g-balken1_1.009
+    3300332: stiege-b g-balken1_1.010
+    3300334: stiege-b g-balken1_1.011
+    3300336: stiege-b g-balken1_1.012
+    3300338: stiege-b g-balken1_1.013
+    3300340: stiege-b s-balken1
+    3300342: stiege-b s-balken2
+    3300344: stiege-b s-balken3
+    3300346: stiege-b s-balken4
+    3300348: stiege-b s-balken4_1
+    3300350: stiege-b s-balken4_2
+    4300000: Plane.001
+    4300002: stiege-b Floors.001
+    4300004: stiege-b s-balken1
+    4300006: stiege-b g-balken1_1
+    4300008: stiege-b Ebene
+    4300010: stiege-b s-balken4
+    4300012: stiege-b Floors
+    4300014: stiege-b g-balken1
+    4300016: stiege-b s-balken4_1
+    4300018: stiege-b s-balken2
+    4300020: stiege-b Ebene_1
+    4300022: stiege-b s-balken3
+    4300024: stiege-b s-balken4_2
+    4300026: Cylinder.012
+    4300028: Cube.077
+    4300030: Cylinder.010
+    4300032: Cube.075
+    4300034: Cube.007_Cube.000
+    4300036: Cube.003_Cube.000
+    4300038: Cube.073
+    4300040: Cube.070
+    4300042: Cube.069
+    4300044: Cube.067
+    4300046: Cube.004_Cube.000
+    4300048: Cube.063
+    4300050: Cylinder.015_Cylinder.000
+    4300052: Cube.061
+    4300054: Cylinder.005
+    4300056: Cube.005_Cube.000
+    4300058: Cube.060
+    4300060: Cube.022
+    4300062: Cube.021
+    4300064: Cube.019
+    4300066: Cube.018
+    4300068: Cube.017
+    4300070: Cube.015
+    4300072: Cube.013
+    4300074: Cube.006_Cube.000
+    4300076: Cube.002_Cube.000
+    4300078: Cube.012
+    4300080: Cube.011
+    4300082: Cylinder.014_Cylinder.000
+    4300084: Cube.010
+    4300086: Cube.009
+    4300088: Cube.008_Cube.000
+    4300090: Cube.008
+    4300092: Cube.006
+    4300094: Cube.004
+    4300096: Cylinder.001
+    4300098: Cube.003
+    4300100: Cube.009_Cube.000
+    4300102: drum3
+    4300104: drum2
+    4300106: drum1
+    4300108: Plane
+    4300110: Cube.002_Cube.001
+    4300112: Cube.038
+    4300114: Cube.003_Cube.001
+    4300116: Cube.037
+    4300118: Cube.004_Cube.001
+    4300120: Cube.005_Cube.001
+    4300122: Cube.036
+    4300124: Cube.006_Cube.001
+    4300126: Cube.007_Cube.001
+    4300128: Cube.035
+    4300130: Cube.008_Cube.001
+    4300132: Cube.034
+    4300134: Cube.009_Cube.001
+    4300136: Cube.033
+    4300138: Cube.032
+    4300140: Cube.031
+    4300142: Cube.030
+    4300144: Cube.029
+    4300146: Cube.028
+    4300148: Cube.027
+    4300150: Cube.026
+    4300152: Cube.025
+    4300154: Cube.024
+    4300156: Cube.023
+    4300158: Cube.020
+    4300160: Cube.016
+    4300162: Cube.014
+    4300164: Cube.007
+    4300166: Cube.005
+    4300168: Cube.002
+    4300170: Cube.001
+    4300172: Cube.000
+    4300174: Cylinder.004
+    4300176: Cylinder.003
+    4300178: Cylinder.002
+    4300180: Cylinder.000
+    4300182: Cylinder.014_Cylinder.001
+    4300184: Cylinder.015_Cylinder.001
+    4300186: Cube.079
+    4300188: Cube.078
+    4300190: Cube.062
+    4300192: Cube.002_Cube.002
+    4300194: Cube.003_Cube.002
+    4300196: Cube.004_Cube.002
+    4300198: Cube.059
+    4300200: Cube.005_Cube.002
+    4300202: Cube.006_Cube.002
+    4300204: Cube.058
+    4300206: Cube.007_Cube.002
+    4300208: Cube.008_Cube.002
+    4300210: Cube.009_Cube.002
+    4300212: Cube.057
+    4300214: Cube.056
+    4300216: Cube.055
+    4300218: Cube.054
+    4300220: Cube.053
+    4300222: Cube.052
+    4300224: Cube.051
+    4300226: Cube.050
+    4300228: Cube.049
+    4300230: Cube.048
+    4300232: Cube.047
+    4300234: Cube.046
+    4300236: Cube.045
+    4300238: Cube.044
+    4300240: Cube.043
+    4300242: Cube.042
+    4300244: Cube.041
+    4300246: Cube.040
+    4300248: Cube.039
+    4300250: Cylinder.009
+    4300252: Cylinder.008
+    4300254: Cylinder.007
+    4300256: Cylinder.006
+    4300258: Cylinder.014_Cylinder.002
+    4300260: Cylinder.015_Cylinder.002
+    4300262: 17370_Power_belt_conveyor.002
+    4300264: stiege-b Floors.002
+    4300266: stiege-b g-balken1.001
+    4300268: stiege-b g-balken1_1.001
+    4300270: stiege-b Floors.003
+    4300272: stiege-b g-balken1.002
+    4300274: stiege-b g-balken1_1.002
+    4300276: stiege-b Floors.005
+    4300278: stiege-b Floors.004
+    4300280: stiege-b g-balken1.004
+    4300282: stiege-b g-balken1.003
+    4300284: stiege-b g-balken1_1.004
+    4300286: stiege-b g-balken1_1.003
+    4300288: stiege-b Floors.007
+    4300290: stiege-b Floors.006
+    4300292: stiege-b g-balken1.006
+    4300294: stiege-b g-balken1.005
+    4300296: stiege-b g-balken1_1.006
+    4300298: stiege-b g-balken1_1.005
+    4300300: stiege-b Floors.009
+    4300302: stiege-b Floors.008
+    4300304: stiege-b g-balken1.008
+    4300306: stiege-b g-balken1.007
+    4300308: stiege-b g-balken1_1.008
+    4300310: stiege-b g-balken1_1.007
+    4300312: stiege-b Floors.011
+    4300314: stiege-b Floors.010
+    4300316: stiege-b g-balken1.010
+    4300318: stiege-b g-balken1.009
+    4300320: stiege-b g-balken1_1.010
+    4300322: stiege-b g-balken1_1.009
+    4300324: stiege-b Floors.013
+    4300326: stiege-b Floors.012
+    4300328: stiege-b g-balken1.012
+    4300330: stiege-b g-balken1.011
+    4300332: stiege-b g-balken1_1.012
+    4300334: stiege-b g-balken1_1.011
+    4300336: stiege-b Floors.014
+    4300338: stiege-b g-balken1.013
+    4300340: stiege-b g-balken1_1.013
+    4300342: 17370_Power_belt_conveyor.000
+    4300344: 17370_Power_belt_conveyor.001
+    4300346: 17370_Power_belt_conveyor.003
+    4300348: pCube40.001
+    4300350: pCube40.000
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

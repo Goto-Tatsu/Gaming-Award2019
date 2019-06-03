@@ -8,6 +8,7 @@ public class Trace : MonoBehaviour
     private GameObject player = null;
     private Vector3 offset = Vector3.zero;
     private bool other_player;
+    private double FrameCount;
 
 
     // Start is called before the first frame update
@@ -28,22 +29,31 @@ public class Trace : MonoBehaviour
         // newPosition.z = player.transform.position.z + offset.z;
         transform.position = newPosition;
         this.transform.rotation = Quaternion.Euler(0,0,0);
-
+        
         Debug.Log(other_player);
+
+        if (FrameCount >= 15)
+        {
+            other_player = true;
+            FrameCount = 0;
+        }
     }
 
-    void OnTriggerEnter(Collider collider)
+    void OnTriggerStay(Collider collider)
     {
         if(collider.gameObject.tag != "Player")
         {
             other_player = true;
+            FrameCount++;
         }
     }
+
     void OnTriggerExit(Collider collider)
     {
         if (collider.gameObject.tag != "Player")
         {
             other_player = false;
+            FrameCount = 0;
         }
     }
 
