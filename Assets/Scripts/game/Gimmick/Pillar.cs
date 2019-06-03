@@ -26,7 +26,7 @@ public class Pillar : MonoBehaviour
             if (i < fall)
             {
                 i += speed;
-                transform.localScale += new Vector3(0.0f, speed, 0.0f);
+                transform.position += new Vector3(0.0f, speed, 0.0f);
             }
             Debug.Log(fall);
             if (i >= fall)
@@ -47,7 +47,7 @@ public class Pillar : MonoBehaviour
             if (i < fall)
             {
                 i += speed;
-                transform.localScale += new Vector3(0.0f, -speed, 0.0f);
+                transform.position += new Vector3(0.0f, -speed, 0.0f);
             }
             if (i >= fall)
             {

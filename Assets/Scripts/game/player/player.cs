@@ -20,6 +20,9 @@ public class player : MonoBehaviour
     public string LeftStickX;
     public string LeftStickY;
 
+    public GoalFlag1 goalFlag;
+    public float fallenDownY;
+    private Vector3 DefaultPosition;
 
     //
     private int rotA;
@@ -30,7 +33,8 @@ public class player : MonoBehaviour
     bool spring_flg;
     private player own;
 
-    Vector3 hitPos;//collisionの場所
+    [SerializeField]
+    public Vector3 hitPos;//collisionの場所
 
     Vector3 rigid_rotate;
     float RigidZ;
@@ -57,14 +61,18 @@ public class player : MonoBehaviour
     GameObject wall;
     Vector3 wall_pos;
 
+
     public GameObject SoundManager;
     private Audio m_audio;
     private bool SoundOn;
     private bool CeilingOn;
+    private bool FallenFlag;
 
     // Start is called before the first frame update
     void Start()
     {
+        FallenFlag = false;
+        DefaultPosition = gameObject.transform.position;    // 出現時のpositionを保存
         gameObject.tag = "Balloon";
         rigidbody = GetComponent<Rigidbody>();
         FadeManager.FadeIn();
@@ -94,16 +102,30 @@ public class player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!goalFlag.Get_Goal())
+        {
+            if (this.gameObject.transform.position.y < fallenDownY)
+            {
+                FallenFlag = true;
+            }
+            if (FallenFlag)
+            {
+                this.gameObject.transform.position = DefaultPosition;    // モトニモドス
+                FallenFlag = false;
+            }
+            Debug.Log(gameObject.transform.position);
+
+
             rigid_rotate = transform.eulerAngles;
             RigidZ = rigid_rotate.z;
-     
-        //Debug.Log(playHP);
-        //topが上
 
-        //center_rotate
-        //0~4 フロア上
-        //5~14 空上
-        
+            //Debug.Log(playHP);
+            //topが上
+
+            //center_rotate
+            //0~4 フロア上
+            //5~14 空上
+
             if ((RigidZ >= 0 && RigidZ < 36) || (RigidZ >= 324 && RigidZ < 360))
             {
                 center_rotate = 0;
@@ -129,177 +151,175 @@ public class player : MonoBehaviour
                 center_rotate = 4;
             }
 
-        
 
 
 
-        //コントローラースティック取得
-        h = Input.GetAxisRaw(RightStickX);
-        v = Input.GetAxisRaw(RightStickY);
-        j = Input.GetAxisRaw(LeftStickX);
-        b = Input.GetAxisRaw(LeftStickY);
-        //Debug.Log("x:" + h + "y:" + v);
-        //Debug.Log(kinematic);
-        //Debug.Log(kinematic);
 
-        if ((Rarm.Get_Cling() == false) && (Rleg.Get_Cling() == false) && (Larm.Get_Cling() == false) && (Lleg.Get_Cling() == false) && (top.Get_Cling() == false))
-        {
-            //rigidbody.isKinematic = false;
-        }
+            //コントローラースティック取得
+            h = Input.GetAxisRaw(RightStickX);
+            v = Input.GetAxisRaw(RightStickY);
+            j = Input.GetAxisRaw(LeftStickX);
+            b = Input.GetAxisRaw(LeftStickY);
+           // Debug.Log("x:" + h + "y:" + v);
+            //Debug.Log(kinematic);
+            //Debug.Log(kinematic);
 
-        //kinematicのon,off
-        if (kinematic == true)
-        {
-            //if ((Rarm.Get_Cling() == true) || (Rleg.Get_Cling() == true) || (Larm.Get_Cling() == true) || (Lleg.Get_Cling() == true) || (top.Get_Cling() == true))
-
-            if (!Input.GetButton("PS4 R1"))
+            if ((Rarm.Get_Cling() == false) && (Rleg.Get_Cling() == false) && (Larm.Get_Cling() == false) && (Lleg.Get_Cling() == false) && (top.Get_Cling() == false))
             {
-                rigidbody.velocity = Vector3.zero;
-                rigidbody.angularVelocity = Vector3.zero;
+                //rigidbody.isKinematic = false;
             }
+
+            //kinematicのon,off
+            if (kinematic == true)
+            {
+                //if ((Rarm.Get_Cling() == true) || (Rleg.Get_Cling() == true) || (Larm.Get_Cling() == true) || (Lleg.Get_Cling() == true) || (top.Get_Cling() == true))
+
+                if (!Input.GetButton("PS4 R1"))
+                {
+                    rigidbody.velocity = Vector3.zero;
+                    rigidbody.angularVelocity = Vector3.zero;
+                }
                 //rigidbody.useGravity = false;
                 //rigidbody.isKinematic = true;
-
-
-
 
                 //引力
                 //distance = Vector3.Distance(targetPos, transform.position);
                 //PlayAngle = Target.transform.position - transform.position;
                 //rigidbody.AddForce(PlayAngle.normalized * (gravity / Mathf.Pow(distance, 2)));
 
-            /* 回転上下決定用 */
-            // 左右
-            if (transform.position.x > hitPos.x)
-            {
-                kinema_RL_flg = false;
-            }
-            if (transform.position.x < hitPos.x)
-            {
-                kinema_RL_flg = true;
-            }
-            // 上下
-            if (transform.position.y > hitPos.y)
-            {
-                kinema_UpDown_flg = false;
-            }
-            if (transform.position.y < hitPos.y)
-            {
-                kinema_UpDown_flg = true;
-            }
-            /* -------------------------- */
-        }
-        else
-        {
-            //rigidbody.isKinematic = false;
-            //rigidbody.useGravity = true;
-        }
-
-        if (kinematic)
-        {
-            if (kinema_RL_flg)
-            {
-                if (j >= -0.5 && j <= 0.5 && b == -1)
+                /* 回転上下決定用 */
+                // 左右
+                if (transform.position.x > hitPos.x)
                 {
-                    transform.RotateAround(hitPos, Vector3.forward,  -PRotSpeed);   // 右回転
+                    kinema_RL_flg = false;
                 }
-                if (j >= -0.5 && j <= 0.5 && b == 1) 
+                if (transform.position.x < hitPos.x)
                 {
-                    transform.RotateAround(hitPos, Vector3.forward, PRotSpeed);     // 左回転
+                    kinema_RL_flg = true;
                 }
-                //transform.RotateAround(hitPos, Vector3.forward, -(float)kinema_angle);
+                // 上下
+                if (transform.position.y > hitPos.y)
+                {
+                    kinema_UpDown_flg = false;
+                }
+                if (transform.position.y < hitPos.y)
+                {
+                    kinema_UpDown_flg = true;
+                }
+                /* -------------------------- */
             }
-            if (!kinema_RL_flg)
+            else
             {
-                if (j >= -0.5 && j <= 0.5 && b == -1)
-                {
-                    transform.RotateAround(hitPos, Vector3.forward, PRotSpeed);  // 右回転
-                }
-                if (j >= -0.5 && j <= 0.5 && b == 1)
-                {
-                    transform.RotateAround(hitPos, Vector3.forward, -PRotSpeed); // 左回転
-                }
-
-                //transform.RotateAround(hitPos, Vector3.forward, -(float)kinema_angle);
+                //rigidbody.isKinematic = false;
+                //rigidbody.useGravity = true;
             }
 
-            if (!kinema_UpDown_flg) // 当たっているところが自分より高い
+            if (kinematic)
             {
-                if (b >= -0.5 && b <= 0.5 && j == -1)
+                if (kinema_RL_flg)
                 {
-                    transform.RotateAround(hitPos, Vector3.forward, PRotSpeed);  // 右回転
+                    if (j >= -0.5 && j <= 0.5 && b == -1)
+                    {
+                        transform.RotateAround(hitPos, Vector3.forward, -PRotSpeed);   // 右回転
+                    }
+                    if (j >= -0.5 && j <= 0.5 && b == 1)
+                    {
+                        transform.RotateAround(hitPos, Vector3.forward, PRotSpeed);     // 左回転
+                    }
+                    //transform.RotateAround(hitPos, Vector3.forward, -(float)kinema_angle);
                 }
-                if (b >= -0.5 && b <= 0.5 && j == 1)
+                if (!kinema_RL_flg)
                 {
-                    transform.RotateAround(hitPos, Vector3.forward, -PRotSpeed); // 左回転
+                    if (j >= -0.5 && j <= 0.5 && b == -1)
+                    {
+                        transform.RotateAround(hitPos, Vector3.forward, PRotSpeed);  // 右回転
+                    }
+                    if (j >= -0.5 && j <= 0.5 && b == 1)
+                    {
+                        transform.RotateAround(hitPos, Vector3.forward, -PRotSpeed); // 左回転
+                    }
+
+                    //transform.RotateAround(hitPos, Vector3.forward, -(float)kinema_angle);
                 }
 
-                //transform.RotateAround(hitPos, Vector3.forward, -(float)kinema_angle);
-            }
-
-            if (!kinematic)
-            {
-                if (kinema_UpDown_flg) // 当たってるところが自分より低い
+                if (!kinema_UpDown_flg) // 当たっているところが自分より高い
                 {
                     if (b >= -0.5 && b <= 0.5 && j == -1)
                     {
-                        transform.RotateAround(hitPos, Vector3.forward, -PRotSpeed);  // 右回転
+                        transform.RotateAround(hitPos, Vector3.forward, PRotSpeed);  // 右回転
                     }
                     if (b >= -0.5 && b <= 0.5 && j == 1)
                     {
-                        transform.RotateAround(hitPos, Vector3.forward, PRotSpeed); // 左回転
+                        transform.RotateAround(hitPos, Vector3.forward, -PRotSpeed); // 左回転
+                    }
+
+                    //transform.RotateAround(hitPos, Vector3.forward, -(float)kinema_angle);
+                }
+
+                if (!kinematic)
+                {
+                    if (kinema_UpDown_flg) // 当たってるところが自分より低い
+                    {
+                        if (b >= -0.5 && b <= 0.5 && j == -1)
+                        {
+                            transform.RotateAround(hitPos, Vector3.forward, -PRotSpeed);  // 右回転
+                        }
+                        if (b >= -0.5 && b <= 0.5 && j == 1)
+                        {
+                            transform.RotateAround(hitPos, Vector3.forward, PRotSpeed); // 左回転
+                        }
                     }
                 }
             }
-        }
 
-        // 尖ったら
-        if (top.Get_Cling())
-        {
-            // Soundまだついてなかったら
-            if (!SoundOn)
+            // 尖ったら
+            if (top.Get_Cling())
             {
-                m_audio.PlaySound(2);   // SE_伸ばす
-                SoundOn = true;
+                // Soundまだついてなかったら
+                if (!SoundOn)
+                {
+                    m_audio.PlaySound(2);   // SE_伸ばす
+                    SoundOn = true;
+                }
             }
-        }
-        else if (Rarm.Get_Cling())
-        {
-            if (!SoundOn)
+            else if (Rarm.Get_Cling())
             {
-                m_audio.PlaySound(2);   // SE_伸ばす
-                SoundOn = true;
+                if (!SoundOn)
+                {
+                    m_audio.PlaySound(2);   // SE_伸ばす
+                    SoundOn = true;
+                }
             }
-        }
-        else if (Rleg.Get_Cling())
-        {
-            if (!SoundOn)
+            else if (Rleg.Get_Cling())
             {
-                m_audio.PlaySound(2);   // SE_伸ばす
-                SoundOn = true;
+                if (!SoundOn)
+                {
+                    m_audio.PlaySound(2);   // SE_伸ばす
+                    SoundOn = true;
+                }
             }
-        }
-        else if(Larm.Get_Cling()){
-            if (!SoundOn)
+            else if (Larm.Get_Cling())
             {
-                m_audio.PlaySound(2);   // SE_伸ばす
-                SoundOn = true;
+                if (!SoundOn)
+                {
+                    m_audio.PlaySound(2);   // SE_伸ばす
+                    SoundOn = true;
+                }
             }
-        }
-        else if (Lleg.Get_Cling())
-        {
-            if (!SoundOn)
+            else if (Lleg.Get_Cling())
             {
-                m_audio.PlaySound(2);   // SE_伸ばす
-                SoundOn = true;
+                if (!SoundOn)
+                {
+                    m_audio.PlaySound(2);   // SE_伸ばす
+                    SoundOn = true;
+                }
             }
-        }
-        else if (!top.Get_Cling() || !Rarm.Get_Cling() || !Rleg.Get_Cling() || !Larm.Get_Cling() || !Lleg.Get_Cling())
-        {
-            SoundOn = false;
-        }
+            else if (!top.Get_Cling() || !Rarm.Get_Cling() || !Rleg.Get_Cling() || !Larm.Get_Cling() || !Lleg.Get_Cling())
+            {
+                SoundOn = false;
+            }
 
-        
+        }
     }
 
 
@@ -382,6 +402,10 @@ public class player : MonoBehaviour
             scoreCoin += status.Get_ScoreBigCoin;
             m_audio.PlaySound(1);   // コイン(大)
         }
+        if(collider.gameObject.tag == "Balloon")
+        {
+            m_audio.PlaySound(5);
+        }
         
     }
 
@@ -414,6 +438,10 @@ public class player : MonoBehaviour
         return floor_flg;
     }
 
+    public float Get_PlayerPosX()
+    {
+        return gameObject.transform.position.x;
+    }
 
     public bool Get_Kinema()
     {
@@ -432,6 +460,7 @@ public class player : MonoBehaviour
 
     public bool Get_RL_flg { get { return kinema_RL_flg; } }
 
+    public Vector3 Get_hitPos { get { return hitPos; } }
 }
 
 

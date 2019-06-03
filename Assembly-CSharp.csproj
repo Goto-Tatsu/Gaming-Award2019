@@ -61,12 +61,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Audio.cs" />
+    <Compile Include="Assets\Audio_BGM.cs" />
     <Compile Include="Assets\FreePrefab\Button.cs" />
     <Compile Include="Assets\FreePrefab\Movetable.cs" />
     <Compile Include="Assets\FreePrefab\PlayerMove_by_Keyboard.cs" />
     <Compile Include="Assets\FreePrefab\SampleMove.cs" />
     <Compile Include="Assets\FreePrefab\WallMove_X.cs" />
     <Compile Include="Assets\FreePrefab\WallMove_Y.cs" />
+    <Compile Include="Assets\Pause_to_Stageselect.cs" />
+    <Compile Include="Assets\PlayBgm.cs" />
     <Compile Include="Assets\pon\CameraForward.cs" />
     <Compile Include="Assets\pon\Cone.cs" />
     <Compile Include="Assets\pon\CreateConeScript.cs" />
@@ -111,8 +114,15 @@
     <Compile Include="Assets\Scripts\game\BigCoinManager.cs" />
     <Compile Include="Assets\Scripts\game\camera2D.cs" />
     <Compile Include="Assets\Scripts\game\Effect.cs" />
+    <Compile Include="Assets\Scripts\game\Enemy\Arm_Attack.cs" />
+    <Compile Include="Assets\Scripts\game\Enemy\Arm_Head.cs" />
+    <Compile Include="Assets\Scripts\game\Enemy\Arm_Search.cs" />
+    <Compile Include="Assets\Scripts\game\Enemy\Arm_vs_Player.cs" />
+    <Compile Include="Assets\Scripts\game\Enemy\Armed_bal.cs" />
     <Compile Include="Assets\Scripts\game\Enemy\Balloon_Title.cs" />
+    <Compile Include="Assets\Scripts\game\Enemy\Balloon_vs_Player.cs" />
     <Compile Include="Assets\Scripts\game\Enemy\balloonControll.cs" />
+    <Compile Include="Assets\Scripts\game\Enemy\GiantControll.cs" />
     <Compile Include="Assets\Scripts\game\FindPrim_AddCeilingTag.cs" />
     <Compile Include="Assets\Scripts\game\FindPrim_AddWallTag.cs" />
     <Compile Include="Assets\Scripts\game\FindPrimChildren_AddCeilingTag.cs" />
@@ -123,6 +133,13 @@
     <Compile Include="Assets\Scripts\game\Gimmick\Pillar.cs" />
     <Compile Include="Assets\Scripts\game\Gimmick\Pres_Pillar.cs" />
     <Compile Include="Assets\Scripts\game\Gimmick\Press.cs" />
+    <Compile Include="Assets\Scripts\game\Goal\GoalFlag1.cs" />
+    <Compile Include="Assets\Scripts\game\Goal\GoalFlag2.cs" />
+    <Compile Include="Assets\Scripts\game\Goal\GoalFlag3.cs" />
+    <Compile Include="Assets\Scripts\game\Goal\GoalFlag4.cs" />
+    <Compile Include="Assets\Scripts\game\Goal\GoalFlag5.cs" />
+    <Compile Include="Assets\Scripts\game\Goal\GoalFlag6.cs" />
+    <Compile Include="Assets\Scripts\game\Goal\GoalFlagBoss.cs" />
     <Compile Include="Assets\Scripts\game\invincible.cs" />
     <Compile Include="Assets\Scripts\game\Item\Big_Coin.cs" />
     <Compile Include="Assets\Scripts\game\Item\Big_Coin_first.cs" />
@@ -147,6 +164,7 @@
     <Compile Include="Assets\Scripts\game\player\sharp_top.cs" />
     <Compile Include="Assets\Scripts\game\player\sharp_top_shrink.cs" />
     <Compile Include="Assets\Scripts\game\player\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\game\player\Stage_Clear.cs" />
     <Compile Include="Assets\Scripts\game\player\Trace.cs" />
     <Compile Include="Assets\Scripts\game\Scale.cs" />
     <Compile Include="Assets\Scripts\game\SoundCreater.cs" />
@@ -165,7 +183,9 @@
     <Compile Include="Assets\Scripts\Pause.cs" />
     <Compile Include="Assets\Scripts\Pause_Back.cs" />
     <Compile Include="Assets\Scripts\title\SceneChange.cs" />
+    <Compile Include="Assets\StageSelect\ClearFlagManeger.cs" />
     <Compile Include="Assets\testcontroll.cs" />
+    <Compile Include="Assets\Title.cs" />
     <None Include="Assets\SAColliderBuilder\Readme_en.txt" />
     <None Include="Assets\Materials\Shaders\TextureShader.shader" />
     <None Include="Assets\Materials\Shaders\NewSurfaceShader.shader" />

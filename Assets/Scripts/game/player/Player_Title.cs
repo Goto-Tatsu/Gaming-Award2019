@@ -9,6 +9,7 @@ public class Player_Title : MonoBehaviour
     private bool walk_flg;
     private bool pon;
     new Rigidbody rigidbody;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +31,8 @@ public class Player_Title : MonoBehaviour
             walk_flg = false;
         }
         Debug.Log(pon);
+
+        
     }
 
     void OnCollisionStay(Collision collision)
